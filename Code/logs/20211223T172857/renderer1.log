@@ -1,0 +1,143 @@
+[2021-12-23 17:28:58.576] [renderer1] [error] [Extension Host] (node:24747) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-23 17:29:00.838] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 17:39:47.229] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 18:35:24.547] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 18:39:21.127] [renderer1] [warning] {"name":"Error","message":"46:4: expected ':', found newline"}
+[2021-12-23 18:59:14.444] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 19:37:29.211] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 19:39:21.310] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 19:51:37.442] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 19:57:27.258] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:03:35.749] [renderer1] [warning] {"name":"Error","message":"39:8: missing ',' before newline in composite literal"}
+[2021-12-23 20:03:50.669] [renderer1] [warning] {"name":"Error","message":"39:20: missing ',' before newline in composite literal"}
+[2021-12-23 20:03:53.620] [renderer1] [warning] {"name":"Error","message":"39:20: missing ',' before newline in composite literal"}
+[2021-12-23 20:07:29.563] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:11:46.133] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:12:53.580] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:24:10.034] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:25:02.271] [renderer1] [error] pos 37223597 is not in range for file [37221948:37223596): Error: pos 37223597 is not in range for file [37221948:37223596)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:37:14.155] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:38:52.253] [renderer1] [warning] {"name":"Error","message":"63:17: expected ';', found '{'"}
+[2021-12-23 20:39:35.028] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 20:46:13.291] [renderer1] [warning] {"name":"Error","message":"36:2: expected identifier on left side of :="}
+[2021-12-23 20:56:09.606] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:05:19.962] [renderer1] [warning] {"name":"Error","message":"132:22: missing ',' before newline in composite literal (and 3 more errors)"}
+[2021-12-23 21:18:18.244] [renderer1] [error] no object found for ident NewBuffer: no object found: Error: no object found for ident NewBuffer: no object found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:19:12.317] [renderer1] [error] Illegal argument: range: Error: Illegal argument: range
+	at P (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+	at new _e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:37633)
+	at new _e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+	at new ProtocolDocumentLink (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:7754:9)
+	at asDocumentLink (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:9173:20)
+	at Array.map (<anonymous>)
+	at asDocumentLinks (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:9186:22)
+	at async V.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:106340)
+[2021-12-23 21:19:49.095] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:21:12.947] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:24:13.537] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:26:03.457] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:43:19.229] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:46:03.184] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 21:56:53.344] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-23 22:10:58.691] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)

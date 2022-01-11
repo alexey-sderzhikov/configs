@@ -1,0 +1,3 @@
+[2021-12-23 17:28:59.522] [sharedprocess] [info] Starting worker process with pid 24843 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-23 17:29:20.959] [sharedprocess] [info] Starting worker process with pid 25113 (type: watcherServiceParcelSharedProcess, window: 3).
+[2021-12-23 22:16:52.400] [sharedprocess] [info] Worker process with pid 24843 terminated normally (type: watcherServiceParcelSharedProcess, window: 1).

@@ -1,0 +1,271 @@
+[Info  - 5:29:21 PM] 2021/12/23 17:29:21 go env for /home/aosderzhikov/go/src/bubbletea/examples
+(root /home/aosderzhikov/go/src/bubbletea/examples)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOFLAGS=
+GOMOD=/home/aosderzhikov/go/src/bubbletea/examples/go.mod
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GOINSECURE=
+GONOPROXY=
+GONOSUMDB=
+GOPATH=/home/aosderzhikov/go
+GOPRIVATE=
+GOPROXY=https://proxy.golang.org,direct
+GOROOT=/usr/local/go
+
+
+[Info  - 5:29:23 PM] 2021/12/23 17:29:23 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/go/src/bubbletea/examples
+	query=[builtin examples/...]
+	packages=26
+
+[Info  - 5:29:23 PM] 2021/12/23 17:29:23 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 5:29:23 PM] 2021/12/23 17:29:23 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 5:29:23 PM] 2021/12/23 17:29:23 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+
+[Info  - 5:29:24 PM] 2021/12/23 17:29:24 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 5:29:24 PM] 2021/12/23 17:29:24 discovered missing identifiers: map[parser:true]
+	package="golang.org/x/net/html"
+
+[Info  - 5:29:24 PM] 2021/12/23 17:29:24 discovered missing identifiers: map[markdown:true]
+	package="github.com/yuin/goldmark"
+
+[Error - 5:29:24 PM] 2021/12/23 17:29:24 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 5:29:26 PM] 2021/12/23 17:29:26 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 5:29:55 PM] 2021/12/23 17:29:55 background imports cache refresh starting
+
+[Info  - 5:29:55 PM] 2021/12/23 17:29:55 background refresh finished after 197.283377ms
+
+[Info  - 5:30:26 PM] 2021/12/23 17:30:26 background imports cache refresh starting
+
+[Info  - 5:30:26 PM] 2021/12/23 17:30:26 background refresh finished after 28.408625ms
+
+[Error - 5:32:07 PM] 2021/12/23 17:32:07 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 5:32:07 PM] 2021/12/23 17:32:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/bubbletea/examples/list-simple/main.go:94:3: expected ';', found 4
+	file="/home/aosderzhikov/go/src/bubbletea/examples/list-simple/main.go"
+
+[Error - 5:32:08 PM] 2021/12/23 17:32:08 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 5:32:38 PM] 2021/12/23 17:32:38 background imports cache refresh starting
+
+[Info  - 5:32:38 PM] 2021/12/23 17:32:38 background refresh finished after 28.801273ms
+
+[Info  - 6:20:47 PM] 2021/12/23 18:20:47 background imports cache refresh starting
+
+[Info  - 6:20:47 PM] 2021/12/23 18:20:47 background refresh finished after 36.053672ms
+
+[Error - 6:23:05 PM] 2021/12/23 18:23:05 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 6:23:25 PM] 2021/12/23 18:23:25 background imports cache refresh starting
+
+[Info  - 6:23:25 PM] 2021/12/23 18:23:25 background refresh finished after 26.446922ms
+
+[Info  - 6:24:51 PM] 2021/12/23 18:24:51 background imports cache refresh starting
+
+[Info  - 6:24:51 PM] 2021/12/23 18:24:51 background refresh finished after 26.728571ms
+
+[Error - 6:25:13 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 7:03:16 PM] 2021/12/23 19:03:16 background imports cache refresh starting
+
+[Info  - 7:03:16 PM] 2021/12/23 19:03:16 background refresh finished after 29.591711ms
+
+[Error - 7:06:05 PM] 2021/12/23 19:06:05 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:06:08 PM] 2021/12/23 19:06:08 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:06:12 PM] 2021/12/23 19:06:12 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:06:17 PM] 2021/12/23 19:06:17 background imports cache refresh starting
+
+[Info  - 7:06:17 PM] 2021/12/23 19:06:17 background refresh finished after 30.014661ms
+
+[Error - 7:06:18 PM] 2021/12/23 19:06:18 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:06:47 PM] 2021/12/23 19:06:47 background imports cache refresh starting
+
+[Info  - 7:06:47 PM] 2021/12/23 19:06:47 background refresh finished after 30.602602ms
+
+[Info  - 7:09:06 PM] 2021/12/23 19:09:06 background imports cache refresh starting
+
+[Info  - 7:09:06 PM] 2021/12/23 19:09:06 background refresh finished after 25.767624ms
+
+[Info  - 7:25:12 PM] 2021/12/23 19:25:12 background imports cache refresh starting
+
+[Info  - 7:25:12 PM] 2021/12/23 19:25:12 background refresh finished after 29.271368ms
+
+[Info  - 7:26:10 PM] 2021/12/23 19:26:10 background imports cache refresh starting
+
+[Info  - 7:26:10 PM] 2021/12/23 19:26:10 background refresh finished after 25.109013ms
+
+[Error - 7:26:13 PM] 2021/12/23 19:26:13 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 7:26:13 PM] 2021/12/23 19:26:13 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Info  - 7:26:43 PM] 2021/12/23 19:26:43 background imports cache refresh starting
+
+[Info  - 7:26:43 PM] 2021/12/23 19:26:43 background refresh finished after 23.027042ms
+
+[Info  - 7:27:57 PM] 2021/12/23 19:27:57 background imports cache refresh starting
+
+[Info  - 7:27:57 PM] 2021/12/23 19:27:57 background refresh finished after 49.082277ms
+

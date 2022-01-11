@@ -1,0 +1,43 @@
+#! /bin/sh
+
+#single display
+#bspc monitor -d I II III IV V VI VII VIII IX X
+
+#multiple displays
+bspc monitor eDP-1 -d 6 7 8 9 10
+bspc monitor HDMI-1 -d 1 2 3 4 5
+
+bspc config border_width         2
+bspc config window_gap          10
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config active_border_color '#99EEFF'
+bspc config normal_border_color '#008FBF'
+bspc config focused_border_color '#99EEFF'
+
+#since sxhkd ceased work with lightdm until killed and restarted,
+#theese two lines were added
+pkill sxhkd
+sxhkd &
+
+#for multiple displays
+xrandr --output HDMI-1 --auto --left-of eDP-1
+
+xsetroot -cursor_name left_ptr
+#xsetroot -solid "#38FFCD"
+
+# --no-xinerama allows to strech wallp on dual monotor set
+#feh --bg-fill --no-xinerama ~/pics/piotr-jablonski-the-dawn-patrol-s.jpg
+#feh --bg-scale --no-xinerama ~/pics/piotr-jablonski-the-dawn-patrol-s.jpg
+feh --bg-fill ~/pics/wallpapers/john-teodoro-mainshot.jpg --bg-fill ~/pics/wallpapers/john-teodoro-mainshot.jpg
+
+# set monitors brightness by xrandr
+xrandr --output HDMI-1 --brightness 0.9
+xrandr --output eDP-1 --brightness 1.4
+
+#These two lines should be at the bottom to work properly with two displays
+#TODO replace with lemonbar
+$HOME/.config/polybar/launch.sh

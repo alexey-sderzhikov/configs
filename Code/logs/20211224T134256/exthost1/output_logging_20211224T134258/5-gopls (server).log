@@ -1,0 +1,74 @@
+[Info  - 1:42:59 PM] 2021/12/24 13:42:59 go env for /home/aosderzhikov/go/src/bubbletea/examples
+(root /home/aosderzhikov/go/src/bubbletea/examples)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GONOPROXY=
+GOPRIVATE=
+GOROOT=/usr/local/go
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GOPATH=/home/aosderzhikov/go
+GOINSECURE=
+GOMOD=/home/aosderzhikov/go/src/bubbletea/examples/go.mod
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GOPROXY=https://proxy.golang.org,direct
+GOSUMDB=sum.golang.org
+GO111MODULE=
+GOFLAGS=
+GONOSUMDB=
+
+
+[Info  - 1:42:59 PM] 2021/12/24 13:42:59 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/go/src/bubbletea/examples
+	query=[builtin examples/...]
+	packages=26
+
+[Info  - 1:42:59 PM] 2021/12/24 13:42:59 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 1:43:00 PM] 2021/12/24 13:43:00 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 1:43:00 PM] 2021/12/24 13:43:00 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+
+[Info  - 1:43:00 PM] 2021/12/24 13:43:00 discovered missing identifiers: map[markdown:true]
+	package="github.com/yuin/goldmark"
+
+[Info  - 1:43:00 PM] 2021/12/24 13:43:00 discovered missing identifiers: map[parser:true]
+	package="golang.org/x/net/html"
+
+[Info  - 1:43:00 PM] 2021/12/24 13:43:00 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Error - 1:43:00 PM] 2021/12/24 13:43:00 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+
+[Error - 1:43:00 PM] 2021/12/24 13:43:00 tidy: diagnosing file:///home/aosderzhikov/go/src/bubbletea/examples/go.mod: err: exit status 1: stderr: go: downloading github.com/kylelemons/godebug v1.1.0
+go: downloading github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38
+examples/list-default imports
+	github.com/charmbracelet/bubbles/list imports
+	github.com/sahilm/fuzzy tested by
+	github.com/sahilm/fuzzy.test imports
+	github.com/kylelemons/godebug/pretty: module lookup disabled by GOPROXY=off
+examples/glamour imports
+	github.com/charmbracelet/glamour imports
+	github.com/charmbracelet/glamour/ansi imports
+	github.com/alecthomas/chroma tested by
+	github.com/alecthomas/chroma.test imports
+	github.com/alecthomas/assert: module lookup disabled by GOPROXY=off
+
+

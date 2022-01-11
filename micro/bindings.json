@@ -1,0 +1,13 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Ctrl-Alt-D": "DeleteLine",
+    "Ctrl-Alt-J": "PreviousTab",
+    "Ctrl-Alt-K": "NextTab",
+    "Ctrl-C": "Copy",
+    "Ctrl-J": "PreviousSplit",
+    "Ctrl-K": "NextSplit",
+    "Ctrl-U": "Unsplit",
+    "Ctrl-V": "Paste",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F6": "command-edit:gorename "
+}

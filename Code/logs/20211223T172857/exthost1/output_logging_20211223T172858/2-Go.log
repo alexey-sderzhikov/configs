@@ -1,0 +1,482 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:14:2 field issues is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:14:2 field issues is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:44:27 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:70:24 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:75:26 m.projects.Projects undefined (type []restapi.Project has no field or method Projects) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:83:6 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:85:7 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:88:16 invalid operation: cannot indirect is (variable of type restapi.IssueList) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:47:27 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:73:24 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:78:26 m.projects.Projects undefined (type []restapi.Project has no field or method Projects) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:86:6 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:88:7 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:91:16 invalid operation: cannot indirect is (variable of type restapi.IssueList) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:46:4 expected ':', found newline (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:82:24 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:87:26 m.projects.Projects undefined (type []restapi.Project has no field or method Projects) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:95:6 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:97:7 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:100:16 invalid operation: cannot indirect is (variable of type restapi.IssueList) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:85:1 missing return (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:99:24 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:104:26 m.projects.Projects undefined (type []restapi.Project has no field or method Projects) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:112:6 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:114:7 m.choices undefined (type model has no field or method choices) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:117:16 invalid operation: cannot indirect is (variable of type restapi.IssueList) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:87:1 missing return (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:132:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:87:1 missing return (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:135:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:87:1 missing return (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:135:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:87:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:138:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:124:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:124:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:124:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:26:27 GetProjects not declared by package restapi (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:26:2 r declared but not used (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:27:27 GetProjects not declared by package restapi (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:17:2 field rm is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:39:8 missing ',' before newline in composite literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:39:20 missing ',' before newline in composite literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:39:20 missing ',' before newline in composite literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:28:19 undeclared name: r (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:57:33 r.Request undefined (type RmClient has no field or method Request) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:73:56 not enough arguments in call to r.MakeRequest (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:98:75 not enough arguments in call to r.MakeRequest (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:73:56 not enough arguments in call to r.MakeRequest (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:98:75 not enough arguments in call to r.MakeRequest (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:73:56 not enough arguments in call to r.MakeRequest (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:98:75 not enough arguments in call to r.MakeRequest (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:121:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/models.go:63:17 expected ';', found '{' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:121:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:121:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:36:2 expected identifier on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:39:3 wrong number of return values (want 2, got 0) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:136:30 json.Unmarshal expects to unmarshal into a pointer, but the provided value is not a pointer (SA1014)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:136:30 json.Unmarshal expects to unmarshal into a pointer, but the provided value is not a pointer (SA1014)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:80:16 r.MakeRequest undefined (type RmClient has no field or method MakeRequest, but does have makeRequest) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:85:18 r.DoRequest undefined (type RmClient has no field or method DoRequest, but does have doRequest) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:105:16 r.MakeRequest undefined (type RmClient has no field or method MakeRequest, but does have makeRequest) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:110:18 r.DoRequest undefined (type RmClient has no field or method DoRequest, but does have doRequest) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:16 r.MakeRequest undefined (type RmClient has no field or method MakeRequest, but does have makeRequest) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:131:18 r.DoRequest undefined (type RmClient has no field or method DoRequest, but does have doRequest) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:22 missing ',' before newline in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:6 missing ',' in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:134:2 expected operand, found '}' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:140:2 expected ';', found 'if' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:22 missing ',' before newline in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:6 missing ',' in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:134:2 expected operand, found '}' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:140:2 expected ';', found 'if' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:22 missing ',' before newline in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:6 missing ',' in composite literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:134:2 expected operand, found '}' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:140:2 expected ';', found 'if' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:19 bytes.NewBuffer undefined (type []byte has no field or method NewBuffer) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:19 bytes.NewBuffer undefined (type []byte has no field or method NewBuffer) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:19 bytes.NewBuffer undefined (type []byte has no field or method NewBuffer) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:19 bytes.NewBuffer undefined (type []byte has no field or method NewBuffer) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:141:19 bytes.NewBuffer undefined (type []byte has no field or method NewBuffer) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:137:2 byftes declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:2 reqBody declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:29 cannot use timeEntry (variable of type TimeEntry) as []byte value in argument to bytes.NewBuffer (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:2 req declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:143:63 undeclared name: body (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:144:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:148:16 func model.updateIssues is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:3 unknown field Time_entry in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:15 undeclared name: TimeEntryInner (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:3 unknown field Time_entry in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:129:4 unknown field Issue_id in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:130:4 unknown field Spent_on in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:131:4 unknown field Hours in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:4 unknown field Comments in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:4 unknown field User_id in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:3 unknown field Time_entry in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:129:4 unknown field Issue_id in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:130:4 unknown field Spent_on in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:131:4 unknown field Hours in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:4 unknown field Comments in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:4 unknown field User_id in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:3 unknown field Time_entry in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:129:4 unknown field Issue_id in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:130:4 unknown field Spent_on in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:131:4 unknown field Hours in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:4 unknown field Comments in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:4 unknown field User_id in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:137:32 struct type 'github.com/alexey-sderzhikov/regent/restapi.TimeEntry' doesn't have any exported fields, nor custom marshaling (SA9005)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.Identifier undefined (type User has no field or method Identifier) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:137:32 struct type 'github.com/alexey-sderzhikov/regent/restapi.TimeEntry' doesn't have any exported fields, nor custom marshaling (SA9005)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:137:32 struct type 'github.com/alexey-sderzhikov/regent/restapi.TimeEntry' doesn't have any exported fields, nor custom marshaling (SA9005)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:129:4 unknown field issue_id in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:130:4 unknown field spent_on in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:131:4 unknown field hours in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:132:4 unknown field comments in struct literal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:4 unknown field user_id in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:3 unknown field Time_entry in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent
+/home/aosderzhikov/go/src/regent>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.Id undefined (type User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:176:10 user.Id undefined (type User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:177:68 user.Id undefined (type User has no field or method Id) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.Id undefined (type User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:176:10 user.Id undefined (type User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:177:68 user.Id undefined (type User has no field or method Id) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.Id undefined (type User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:177:68 user.Id undefined (type User has no field or method Id) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.Id undefined (type User has no field or method Id) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:40:16 cannot use r.getCurrentUser() (value of type User) as UserInner value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:133:21 r.User.User undefined (type UserInner has no field or method User) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:40:16 cannot use r.getCurrentUser() (value of type User) as UserInner value in assignment (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:41:16 cannot use r.getCurrentUser() (value of type User) as UserInner value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:171:2 userResp declared but not used (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:172:34 use of package user not in selector (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:177:15 user.User.Id undefined (type user.User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:178:73 user.User.Id undefined (type user.User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:181:9 use of package user not in selector (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:41:16 cannot use r.getCurrentUser() (value of type User) as UserInner value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:177:15 user.User.Id undefined (type user.User has no field or method Id) (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:181:9 use of package user not in selector (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:40:16 cannot use r.getCurrentUser() (value of type User) as UserInner value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:180:9 undeclared name: user (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+

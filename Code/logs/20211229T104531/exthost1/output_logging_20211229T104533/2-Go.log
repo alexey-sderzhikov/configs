@@ -1,0 +1,251 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:142:4 expected operand, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:143:4 expected ':', found newline (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:142:4 expected operand, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:143:4 expected ':', found newline (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:22:6 type inputs is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:76:18 cannot use inputs (variable of type []textinput.Model) as inputs value in struct literal (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:90:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:92:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:95:25 invalid argument: m.inputs (variable of type inputs) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:98:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:103:30 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:110:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:111:4 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:124:30 invalid argument: m.inputs (variable of type inputs) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:125:27 invalid argument: m.inputs (variable of type inputs) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:3 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:24 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:106:3 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:108:3 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:110:3 invalid operation: cannot index m.inputs (variable of type inputs) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:69:2 undeclared name: inputs (compile)
+/home/aosderzhikov/go/src/regent/cli/model.go:70:2 undeclared name: inputs (compile)
+/home/aosderzhikov/go/src/regent/cli/model.go:77:18 undeclared name: inputs (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:90:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:92:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:95:25 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:98:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:103:30 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:110:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:111:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:124:30 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:125:27 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:24 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:106:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:108:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:110:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:90:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:92:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:95:25 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:98:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:103:30 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:110:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:111:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:124:30 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:125:27 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:24 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:106:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:108:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:110:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:90:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:92:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:95:25 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:98:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:103:30 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:110:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:111:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:124:30 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:125:27 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:24 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:90:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:92:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:95:25 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:98:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:103:30 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:110:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:111:4 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:124:30 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:125:27 invalid argument: m.inputs (variable of type inputStruct) for len (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:3 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:126:24 invalid operation: cannot index m.inputs (variable of type inputStruct) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:106:12 m.inputs.Comment undefined (type []textinput.Model has no field or method Comment) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:108:12 m.inputs.Date undefined (type []textinput.Model has no field or method Date) (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:110:12 m.inputs.Hours undefined (type []textinput.Model has no field or method Hours) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:77:12 expected '==', found '=' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2 expected identifier on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:75:10 cannot use nil (untyped nil value) as respStruct value in return statement (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:86:17 undeclared name: byteList (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:101:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:158:18 cannot use r.doRequest(req) (value of type respStruct) as []byte value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:181:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2 expected identifier on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:101:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:126:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:158:18 cannot use r.doRequest(req) (value of type respStruct) as []byte value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:181:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:128:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:160:18 cannot use r.doRequest(req) (value of type respStruct) as []byte value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:183:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:160:18 cannot use r.doRequest(req) (value of type respStruct) as []byte value in assignment (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:183:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:182:23 cannot use byteList (variable of type respStruct) as []byte value in argument to json.Unmarshal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:110:9 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:110:9 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:110:9 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:30:5 var statusStyle is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+

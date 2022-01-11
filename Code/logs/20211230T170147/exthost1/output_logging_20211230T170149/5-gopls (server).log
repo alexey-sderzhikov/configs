@@ -1,0 +1,934 @@
+[Info  - 5:01:50 PM] 2021/12/30 17:01:50 go env for /home/aosderzhikov/go/src/regent
+(root /home/aosderzhikov/go/src/regent)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOSUMDB=sum.golang.org
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GOINSECURE=
+GOROOT=/usr/local/go
+GOFLAGS=
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GOPATH=/home/aosderzhikov/go
+GONOPROXY=
+GONOSUMDB=
+GOPROXY=https://proxy.golang.org,direct
+GO111MODULE=
+GOMOD=/home/aosderzhikov/go/src/regent/go.mod
+GOPRIVATE=
+
+
+[Info  - 5:01:50 PM] 2021/12/30 17:01:50 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/go/src/regent
+	query=[builtin github.com/alexey-sderzhikov/regent/...]
+	packages=4
+
+[Error - 5:01:51 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Info  - 5:01:51 PM] 2021/12/30 17:01:51 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 5:01:51 PM] 2021/12/30 17:01:51 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 5:01:51 PM] 2021/12/30 17:01:51 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 5:01:51 PM] 2021/12/30 17:01:51 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+
+[Info  - 5:02:21 PM] 2021/12/30 17:02:21 background imports cache refresh starting
+
+[Info  - 5:02:21 PM] 2021/12/30 17:02:21 background refresh finished after 208.589544ms
+
+[Info  - 5:03:07 PM] 2021/12/30 17:03:07 background imports cache refresh starting
+
+[Info  - 5:03:07 PM] 2021/12/30 17:03:07 background refresh finished after 29.807992ms
+
+[Info  - 5:04:02 PM] 2021/12/30 17:04:02 background imports cache refresh starting
+
+[Info  - 5:04:02 PM] 2021/12/30 17:04:02 background refresh finished after 33.084ms
+
+[Error - 5:04:10 PM] 2021/12/30 17:04:10 no signature help: cannot find an enclosing function
+	position={41 22}
+
+[Error - 5:04:20 PM] 2021/12/30 17:04:20 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:20 PM] 2021/12/30 17:04:20 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:20 PM] 2021/12/30 17:04:20 no signature help: cannot find an enclosing function
+	position={56 12}
+
+[Error - 5:04:23 PM] 2021/12/30 17:04:23 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:23 PM] 2021/12/30 17:04:23 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:25 PM] 2021/12/30 17:04:25 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:25 PM] 2021/12/30 17:04:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:10: expected ';', found '!' (and 134 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:25 PM] 2021/12/30 17:04:25 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:04:25 PM] 2021/12/30 17:04:25 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:25 PM] 2021/12/30 17:04:25 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:10: expected ';', found '!' (and 130 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:04:26 PM] 2021/12/30 17:04:26 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:27 PM] 2021/12/30 17:04:27 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:27 PM] 2021/12/30 17:04:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:10: expected ';', found '!' (and 134 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:27 PM] 2021/12/30 17:04:27 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:04:27 PM] 2021/12/30 17:04:27 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:27 PM] 2021/12/30 17:04:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:10: expected ';', found '!' (and 134 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:28 PM] 2021/12/30 17:04:28 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:04:28 PM] 2021/12/30 17:04:28 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:04:28 PM] 2021/12/30 17:04:28 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Info  - 5:04:33 PM] 2021/12/30 17:04:33 background imports cache refresh starting
+
+[Info  - 5:04:33 PM] 2021/12/30 17:04:33 background refresh finished after 24.051893ms
+
+[Error - 5:04:51 PM] 2021/12/30 17:04:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:52 PM] 2021/12/30 17:04:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:52 PM] 2021/12/30 17:04:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:04:54 PM] 2021/12/30 17:04:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 5:05:03 PM] 2021/12/30 17:05:03 background imports cache refresh starting
+
+[Info  - 5:05:03 PM] 2021/12/30 17:05:03 background refresh finished after 30.678353ms
+
+[Error - 5:05:06 PM] 2021/12/30 17:05:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:08 PM] 2021/12/30 17:05:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:14 PM] 2021/12/30 17:05:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:16 PM] 2021/12/30 17:05:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:26 PM] 2021/12/30 17:05:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:27 PM] 2021/12/30 17:05:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:28 PM] 2021/12/30 17:05:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:05:37 PM] 2021/12/30 17:05:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 5:05:39 PM] 2021/12/30 17:05:39 background imports cache refresh starting
+
+[Info  - 5:05:39 PM] 2021/12/30 17:05:39 background refresh finished after 24.960515ms
+
+[Error - 5:05:55 PM] 2021/12/30 17:05:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:19 PM] 2021/12/30 17:06:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:19 PM] 2021/12/30 17:06:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:34 PM] 2021/12/30 17:06:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:38 PM] 2021/12/30 17:06:38 no completions found: this is a definition
+	position={56 13}
+
+[Info  - 5:06:41 PM] 2021/12/30 17:06:41 background imports cache refresh starting
+
+[Info  - 5:06:41 PM] 2021/12/30 17:06:41 background refresh finished after 28.002237ms
+
+[Error - 5:06:46 PM] 2021/12/30 17:06:46 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:49 PM] 2021/12/30 17:06:49 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:52 PM] 2021/12/30 17:06:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:54 PM] 2021/12/30 17:06:54 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:54 PM] 2021/12/30 17:06:54 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:54 PM] 2021/12/30 17:06:54 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:06:55 PM] 2021/12/30 17:06:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:55 PM] 2021/12/30 17:06:55 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:56 PM] 2021/12/30 17:06:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of := (and 135 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:56 PM] 2021/12/30 17:06:56 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:56 PM] 2021/12/30 17:06:56 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:06:58 PM] 2021/12/30 17:06:58 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:06:59 PM] 2021/12/30 17:06:59 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:02 PM] 2021/12/30 17:07:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:02 PM] 2021/12/30 17:07:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:03 PM] 2021/12/30 17:07:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:04 PM] 2021/12/30 17:07:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:08 PM] 2021/12/30 17:07:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 5:07:12 PM] 2021/12/30 17:07:12 background imports cache refresh starting
+
+[Info  - 5:07:12 PM] 2021/12/30 17:07:12 background refresh finished after 29.300532ms
+
+[Error - 5:07:33 PM] 2021/12/30 17:07:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:33 PM] Request textDocument/formatting failed.
+  Message: 57:3: expected identifier on left side of :=
+  Code: 0 
+[Error - 5:07:35 PM] 2021/12/30 17:07:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:43 PM] 2021/12/30 17:07:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:55 PM] 2021/12/30 17:07:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:55 PM] 2021/12/30 17:07:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:56 PM] 2021/12/30 17:07:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:56 PM] 2021/12/30 17:07:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:57 PM] 2021/12/30 17:07:57 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected statement, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:07:58 PM] 2021/12/30 17:07:58 no completions found: this is a definition of var p pagesStack
+	position={56 3}
+
+[Error - 5:07:58 PM] 2021/12/30 17:07:58 no completions found: this is a definition of var pag pagesStack
+	position={56 5}
+
+[Error - 5:08:04 PM] 2021/12/30 17:08:04 no completions found: this is a definition of var m pagesStack
+	position={56 3}
+
+[Error - 5:08:05 PM] 2021/12/30 17:08:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:06 PM] 2021/12/30 17:08:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:11 PM] 2021/12/30 17:08:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:13 PM] 2021/12/30 17:08:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:14 PM] 2021/12/30 17:08:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:16 PM] 2021/12/30 17:08:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:16 PM] 2021/12/30 17:08:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:17 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 5:08:18 PM] 2021/12/30 17:08:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:18 PM] 2021/12/30 17:08:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:19 PM] 2021/12/30 17:08:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:21 PM] 2021/12/30 17:08:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:22 PM] 2021/12/30 17:08:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:24 PM] 2021/12/30 17:08:24 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:28 PM] 2021/12/30 17:08:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:28 PM] Request textDocument/formatting failed.
+  Message: 57:3: expected identifier on left side of :=
+  Code: 0 
+[Info  - 5:08:29 PM] 2021/12/30 17:08:29 background imports cache refresh starting
+
+[Info  - 5:08:29 PM] 2021/12/30 17:08:29 background refresh finished after 44.826438ms
+
+[Error - 5:08:30 PM] 2021/12/30 17:08:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:08:31 PM] 2021/12/30 17:08:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:04 PM] 2021/12/30 17:09:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:07 PM] 2021/12/30 17:09:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:08 PM] 2021/12/30 17:09:08 no completions found: this is a definition of var e invalid type
+	position={56 7}
+
+[Error - 5:09:09 PM] 2021/12/30 17:09:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:57:7: missing variable type or initialization (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:09 PM] 2021/12/30 17:09:09 no completions found: this is a definition of var er invalid type
+	position={56 8}
+
+[Error - 5:09:09 PM] 2021/12/30 17:09:09 no completions found: this is a definition of var err invalid type
+	position={56 9}
+
+[Error - 5:09:11 PM] 2021/12/30 17:09:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:12 PM] 2021/12/30 17:09:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:13 PM] 2021/12/30 17:09:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:58:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:14 PM] 2021/12/30 17:09:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:59:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:15 PM] 2021/12/30 17:09:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:59:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:15 PM] 2021/12/30 17:09:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:59:3: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:23 PM] 2021/12/30 17:09:23 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:100:15: expected ';', found 'ILLEGAL' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:26 PM] 2021/12/30 17:09:26 no completions found: this is a definition of var e invalid type
+	position={101 7}
+
+[Error - 5:09:26 PM] 2021/12/30 17:09:26 no completions found: this is a definition of var err invalid type
+	position={101 9}
+
+[Error - 5:09:31 PM] 2021/12/30 17:09:31 no signature help: cannot find an enclosing function
+	position={102 12}
+
+[Info  - 5:09:35 PM] 2021/12/30 17:09:35 background imports cache refresh starting
+
+[Info  - 5:09:35 PM] 2021/12/30 17:09:35 background refresh finished after 38.930706ms
+
+[Error - 5:09:37 PM] 2021/12/30 17:09:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:102:7: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:38 PM] 2021/12/30 17:09:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:103:3: missing variable type or initialization (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:09:42 PM] 2021/12/30 17:09:42 no signature help: cannot find an enclosing function
+	position={100 12}
+
+[Error - 5:09:43 PM] 2021/12/30 17:09:43 no completions found: this is a definition
+	position={100 13}
+
+[Error - 5:09:50 PM] 2021/12/30 17:09:50 no signature help: cannot find an enclosing function
+	position={185 13}
+
+[Error - 5:09:50 PM] 2021/12/30 17:09:50 no completions found: this is a definition
+	position={185 14}
+
+[Info  - 5:10:06 PM] 2021/12/30 17:10:06 background imports cache refresh starting
+
+[Info  - 5:10:06 PM] 2021/12/30 17:10:06 background refresh finished after 25.937484ms
+
+[Info  - 5:11:11 PM] 2021/12/30 17:11:11 background imports cache refresh starting
+
+[Info  - 5:11:11 PM] 2021/12/30 17:11:11 background refresh finished after 20.573321ms
+
+[Info  - 5:11:48 PM] 2021/12/30 17:11:48 background imports cache refresh starting
+
+[Info  - 5:11:48 PM] 2021/12/30 17:11:48 background refresh finished after 23.496715ms
+
+[Info  - 5:16:47 PM] 2021/12/30 17:16:47 background imports cache refresh starting
+
+[Info  - 5:16:47 PM] 2021/12/30 17:16:47 background refresh finished after 29.928141ms
+
+[Error - 5:17:06 PM] 2021/12/30 17:17:06 unable to compute positions for type errors: invalid pos
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:06 PM] 2021/12/30 17:17:06 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:07 PM] 2021/12/30 17:17:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:108:26: missing ',' before newline in argument list (and 103 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:17:07 PM] 2021/12/30 17:17:07 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:17:08 PM] 2021/12/30 17:17:08 no signature help: cannot find an enclosing function
+	position={107 24}
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 unable to compute positions for type errors: invalid pos
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 unable to compute positions for type errors: invalid pos
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:108:25: missing ',' before newline in argument list (and 103 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 5:17:09 PM] 2021/12/30 17:17:09 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 5:17:10 PM] 2021/12/30 17:17:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:109:3: expected boolean expression, found assignment (missing parentheses around composite literal?) (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 5:17:25 PM] 2021/12/30 17:17:25 background imports cache refresh starting
+
+[Info  - 5:17:25 PM] 2021/12/30 17:17:25 background refresh finished after 24.522437ms
+
+[Info  - 5:18:27 PM] 2021/12/30 17:18:27 background imports cache refresh starting
+
+[Info  - 5:18:27 PM] 2021/12/30 17:18:27 background refresh finished after 29.947613ms
+
+[Info  - 5:19:44 PM] 2021/12/30 17:19:44 background imports cache refresh starting
+
+[Info  - 5:19:44 PM] 2021/12/30 17:19:44 background refresh finished after 43.169229ms
+
+[Info  - 5:22:12 PM] 2021/12/30 17:22:12 background imports cache refresh starting
+
+[Info  - 5:22:12 PM] 2021/12/30 17:22:12 background refresh finished after 30.979753ms
+
+[Info  - 5:22:52 PM] 2021/12/30 17:22:52 background imports cache refresh starting
+
+[Info  - 5:22:52 PM] 2021/12/30 17:22:52 background refresh finished after 24.693882ms
+
+[Info  - 5:23:15 PM] 2021/12/30 17:23:15 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+
+[Error - 5:23:31 PM] 2021/12/30 17:23:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:1: expected declaration, found va
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:32 PM] 2021/12/30 17:23:32 no completions found: this is a definition of var e invalid type
+	position={30 5}
+
+[Error - 5:23:33 PM] 2021/12/30 17:23:33 no completions found: this is a definition of var err invalid type
+	position={30 7}
+
+[Error - 5:23:33 PM] 2021/12/30 17:23:33 no completions found: this is a definition of var erro invalid type
+	position={30 8}
+
+[Error - 5:23:33 PM] 2021/12/30 17:23:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:34 PM] 2021/12/30 17:23:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:34 PM] 2021/12/30 17:23:34 no completions found: this is a definition of var errorSt invalid type
+	position={30 11}
+
+[Error - 5:23:34 PM] 2021/12/30 17:23:34 no completions found: this is a definition of var errorSty invalid type
+	position={30 12}
+
+[Error - 5:23:35 PM] 2021/12/30 17:23:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:35 PM] 2021/12/30 17:23:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:35 PM] 2021/12/30 17:23:35 no completions found: this is a definition of var errorT invalid type
+	position={30 10}
+
+[Error - 5:23:36 PM] 2021/12/30 17:23:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:36 PM] 2021/12/30 17:23:36 no completions found: this is a definition of var errorText invalid type
+	position={30 13}
+
+[Error - 5:23:36 PM] 2021/12/30 17:23:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:37 PM] 2021/12/30 17:23:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:37 PM] 2021/12/30 17:23:37 no completions found: this is a definition of var errorS invalid type
+	position={30 10}
+
+[Error - 5:23:38 PM] 2021/12/30 17:23:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:31:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:23:38 PM] 2021/12/30 17:23:38 no completions found: this is a definition of var errorSt invalid type
+	position={30 11}
+
+[Error - 5:23:38 PM] 2021/12/30 17:23:38 no completions found: this is a definition of var errorSty invalid type
+	position={30 12}
+
+[Error - 5:23:38 PM] 2021/12/30 17:23:38 no completions found: this is a definition of var errorStye invalid type
+	position={30 13}
+
+[Error - 5:23:38 PM] 2021/12/30 17:23:38 no completions found: this is a definition of var errorStyel invalid type
+	position={30 14}
+
+[Error - 5:23:45 PM] 2021/12/30 17:23:45 no signature help: cannot find an enclosing function
+	position={30 36}
+
+[Info  - 5:23:46 PM] 2021/12/30 17:23:46 background imports cache refresh starting
+
+[Info  - 5:23:46 PM] 2021/12/30 17:23:46 background refresh finished after 29.655605ms
+
+[Info  - 5:24:16 PM] 2021/12/30 17:24:16 background imports cache refresh starting
+
+[Info  - 5:24:16 PM] 2021/12/30 17:24:16 background refresh finished after 18.277717ms
+
+[Error - 5:24:18 PM] 2021/12/30 17:24:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:7: missing ',' before newline in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:19 PM] 2021/12/30 17:24:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:7: missing ',' before newline in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:20 PM] 2021/12/30 17:24:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:7: missing ',' before newline in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:21 PM] 2021/12/30 17:24:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:9: missing ',' before newline in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:22 PM] 2021/12/30 17:24:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:7: missing ',' before newline in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:24 PM] 2021/12/30 17:24:24 no signature help: cannot find an enclosing function
+	position={161 10}
+
+[Error - 5:24:40 PM] 2021/12/30 17:24:40 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 5:24:40 PM] 2021/12/30 17:24:40 no signature help: cannot get type for Fun *ast.SelectorExpr (&{errorStyle Render})
+	position={162 20}
+
+[Error - 5:24:40 PM] 2021/12/30 17:24:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:3: missing ',' before newline in argument list (and 11 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:24:40 PM] 2021/12/30 17:24:40 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Error - 5:24:41 PM] 2021/12/30 17:24:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:3: missing ',' before newline in argument list (and 11 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 5:24:47 PM] 2021/12/30 17:24:47 background imports cache refresh starting
+
+[Info  - 5:24:47 PM] 2021/12/30 17:24:47 background refresh finished after 26.002254ms
+
+[Error - 5:24:51 PM] 2021/12/30 17:24:51 no completions found: this is a definition of var errorStyl github.com/charmbracelet/lipgloss.Style
+	position={30 13}
+
+[Error - 5:25:18 PM] 2021/12/30 17:25:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:162:6: expected operand, found '=' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 5:25:20 PM] 2021/12/30 17:25:20 background imports cache refresh starting
+
+[Info  - 5:25:20 PM] 2021/12/30 17:25:20 background refresh finished after 32.55717ms
+
+[Error - 5:25:21 PM] 2021/12/30 17:25:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:162:7: string literal not terminated
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:25:24 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 5:25:35 PM] 2021/12/30 17:25:35 no signature help: cannot find an enclosing function
+	position={162 10}
+
+[Error - 5:25:38 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 5:25:43 PM] 2021/12/30 17:25:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:163:26: expected ';', found fmt
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:25:44 PM] 2021/12/30 17:25:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:163:26: expected ';', found fmt
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:25:45 PM] 2021/12/30 17:25:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:163:26: expected ';', found fmt
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 5:25:51 PM] 2021/12/30 17:25:51 background imports cache refresh starting
+
+[Info  - 5:25:51 PM] 2021/12/30 17:25:51 background refresh finished after 34.512819ms
+
+[Error - 5:26:09 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 5:26:22 PM] 2021/12/30 17:26:22 background imports cache refresh starting
+
+[Info  - 5:26:22 PM] 2021/12/30 17:26:22 background refresh finished after 23.244778ms
+
+[Error - 5:26:46 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 5:26:46 PM] 2021/12/30 17:26:46 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:164:6: expected operand, found '=' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:26:56 PM] 2021/12/30 17:26:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:7: string literal not terminated
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 5:27:13 PM] 2021/12/30 17:27:13 background imports cache refresh starting
+
+[Info  - 5:27:13 PM] 2021/12/30 17:27:13 background refresh finished after 22.697918ms
+
+[Info  - 5:27:44 PM] 2021/12/30 17:27:44 background imports cache refresh starting
+
+[Info  - 5:27:44 PM] 2021/12/30 17:27:44 background refresh finished after 23.882998ms
+
+[Error - 5:28:14 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 5:28:23 PM] 2021/12/30 17:28:23 background imports cache refresh starting
+
+[Info  - 5:28:23 PM] 2021/12/30 17:28:23 background refresh finished after 28.546578ms
+
+[Error - 5:28:31 PM] 2021/12/30 17:28:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:32 PM] 2021/12/30 17:28:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:32 PM] 2021/12/30 17:28:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:33 PM] 2021/12/30 17:28:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:35 PM] 2021/12/30 17:28:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:35 PM] 2021/12/30 17:28:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:36 PM] 2021/12/30 17:28:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:165:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 5:28:36 PM] Request textDocument/formatting failed.
+  Message: 165:4: expected ';', found '+='
+  Code: 0 
+[Info  - 5:28:55 PM] 2021/12/30 17:28:55 background imports cache refresh starting
+
+[Info  - 5:28:55 PM] 2021/12/30 17:28:55 background refresh finished after 30.519787ms
+
+[Info  - 5:38:40 PM] 2021/12/30 17:38:40 background imports cache refresh starting
+
+[Info  - 5:38:40 PM] 2021/12/30 17:38:40 background refresh finished after 45.301961ms
+
+[Info  - 5:40:47 PM] 2021/12/30 17:40:47 background imports cache refresh starting
+
+[Info  - 5:40:47 PM] 2021/12/30 17:40:47 background refresh finished after 22.462644ms
+
+[Info  - 5:41:33 PM] 2021/12/30 17:41:33 background imports cache refresh starting
+
+[Info  - 5:41:33 PM] 2021/12/30 17:41:33 background refresh finished after 25.724881ms
+
+[Info  - 5:42:46 PM] 2021/12/30 17:42:46 background imports cache refresh starting
+
+[Info  - 5:42:46 PM] 2021/12/30 17:42:46 background refresh finished after 29.562207ms
+
+[Info  - 6:09:05 PM] 2021/12/30 18:09:05 background imports cache refresh starting
+
+[Info  - 6:09:05 PM] 2021/12/30 18:09:05 background refresh finished after 30.689723ms
+
+[Error - 6:09:42 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 6:10:03 PM] 2021/12/30 18:10:03 background imports cache refresh starting
+
+[Info  - 6:10:03 PM] 2021/12/30 18:10:03 background refresh finished after 34.09864ms
+
+[Info  - 6:11:23 PM] 2021/12/30 18:11:23 background imports cache refresh starting
+
+[Info  - 6:11:23 PM] 2021/12/30 18:11:23 background refresh finished after 33.170561ms
+
+[Info  - 6:11:54 PM] 2021/12/30 18:11:54 background imports cache refresh starting
+
+[Info  - 6:11:54 PM] 2021/12/30 18:11:54 background refresh finished after 28.654899ms
+
+[Info  - 6:13:50 PM] 2021/12/30 18:13:50 background imports cache refresh starting
+
+[Info  - 6:13:50 PM] 2021/12/30 18:13:50 background refresh finished after 30.293295ms
+
+[Info  - 6:14:23 PM] 2021/12/30 18:14:23 background imports cache refresh starting
+
+[Info  - 6:14:23 PM] 2021/12/30 18:14:23 background refresh finished after 29.045852ms
+
+[Info  - 6:14:59 PM] 2021/12/30 18:14:59 background imports cache refresh starting
+
+[Info  - 6:14:59 PM] 2021/12/30 18:14:59 background refresh finished after 35.059036ms
+
+[Error - 6:15:40 PM] 2021/12/30 18:15:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:1: expected declaration, found va
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:15:40 PM] 2021/12/30 18:15:40 no completions found: this is a definition of var t invalid type
+	position={31 5}
+
+[Error - 6:15:41 PM] 2021/12/30 18:15:41 no completions found: this is a definition of var tes invalid type
+	position={31 7}
+
+[Error - 6:15:41 PM] 2021/12/30 18:15:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:15:41 PM] 2021/12/30 18:15:41 no completions found: this is a definition of var te invalid type
+	position={31 6}
+
+[Error - 6:15:42 PM] 2021/12/30 18:15:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:15:42 PM] 2021/12/30 18:15:42 no completions found: this is a definition of var textSt invalid type
+	position={31 10}
+
+[Error - 6:15:42 PM] 2021/12/30 18:15:42 no completions found: this is a definition of var textSty invalid type
+	position={31 11}
+
+[Error - 6:15:43 PM] 2021/12/30 18:15:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:15:43 PM] 2021/12/30 18:15:43 no completions found: this is a definition of var textStyl invalid type
+	position={31 12}
+
+[Error - 6:15:43 PM] 2021/12/30 18:15:43 no completions found: this is a definition of var textStyle invalid type
+	position={31 13}
+
+[Error - 6:15:43 PM] 2021/12/30 18:15:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:15:51 PM] 2021/12/30 18:15:51 no signature help: cannot find an enclosing function
+	position={31 35}
+
+[Info  - 6:16:08 PM] 2021/12/30 18:16:08 background imports cache refresh starting
+
+[Info  - 6:16:08 PM] 2021/12/30 18:16:08 background refresh finished after 26.928179ms
+
+[Error - 6:16:12 PM] 2021/12/30 18:16:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:51: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:14 PM] 2021/12/30 18:16:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:14 PM] 2021/12/30 18:16:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:15 PM] 2021/12/30 18:16:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:15 PM] 2021/12/30 18:16:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:16 PM] 2021/12/30 18:16:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:16:16 PM] 2021/12/30 18:16:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:16:39 PM] 2021/12/30 18:16:39 background imports cache refresh starting
+
+[Info  - 6:16:39 PM] 2021/12/30 18:16:39 background refresh finished after 30.209535ms
+
+[Info  - 6:17:40 PM] 2021/12/30 18:17:40 background imports cache refresh starting
+
+[Info  - 6:17:40 PM] 2021/12/30 18:17:40 background refresh finished after 29.685571ms
+
+[Error - 6:18:08 PM] 2021/12/30 18:18:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:64: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:18:10 PM] 2021/12/30 18:18:10 background imports cache refresh starting
+
+[Info  - 6:18:10 PM] 2021/12/30 18:18:10 background refresh finished after 21.125478ms
+
+[Info  - 6:18:42 PM] 2021/12/30 18:18:42 background imports cache refresh starting
+
+[Info  - 6:18:42 PM] 2021/12/30 18:18:42 background refresh finished after 23.188395ms
+
+[Error - 6:19:25 PM] 2021/12/30 18:19:25 no completions found: this is a definition of var t invalid type
+	position={31 5}
+
+[Error - 6:19:25 PM] 2021/12/30 18:19:25 no completions found: this is a definition of var tex invalid type
+	position={31 7}
+
+[Error - 6:19:26 PM] 2021/12/30 18:19:26 no completions found: this is a definition of var textSt invalid type
+	position={31 10}
+
+[Error - 6:19:26 PM] 2021/12/30 18:19:26 no completions found: this is a definition of var textSty invalid type
+	position={31 11}
+
+[Error - 6:19:26 PM] 2021/12/30 18:19:26 no completions found: this is a definition of var textStyl invalid type
+	position={31 12}
+
+[Error - 6:19:27 PM] 2021/12/30 18:19:27 no completions found: this is a definition of var textStyle invalid type
+	position={31 13}
+
+[Info  - 6:19:50 PM] 2021/12/30 18:19:50 background imports cache refresh starting
+
+[Info  - 6:19:50 PM] 2021/12/30 18:19:50 background refresh finished after 31.587359ms
+
+[Error - 6:20:13 PM] 2021/12/30 18:20:13 no completions found: this is a definition of var ma invalid type
+	position={60 7}
+
+[Error - 6:20:14 PM] 2021/12/30 18:20:14 no completions found: this is a definition of var main invalid type
+	position={60 9}
+
+[Error - 6:20:14 PM] 2021/12/30 18:20:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:61:6: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:20:14 PM] 2021/12/30 18:20:14 no completions found: this is a definition of var mainT invalid type
+	position={60 10}
+
+[Error - 6:20:15 PM] 2021/12/30 18:20:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:61:6: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:20:15 PM] 2021/12/30 18:20:15 no completions found: this is a definition of var mainText invalid type
+	position={60 13}
+
+[Error - 6:20:16 PM] 2021/12/30 18:20:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:61:6: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:20:33 PM] 2021/12/30 18:20:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:74:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:20:40 PM] 2021/12/30 18:20:40 background imports cache refresh starting
+
+[Info  - 6:20:40 PM] 2021/12/30 18:20:40 background refresh finished after 26.756734ms
+
+[Error - 6:20:42 PM] 2021/12/30 18:20:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:74:4: expected ';', found '+='
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:21:10 PM] 2021/12/30 18:21:10 background imports cache refresh starting
+
+[Info  - 6:21:10 PM] 2021/12/30 18:21:10 background refresh finished after 32.159647ms
+
+[Error - 6:21:47 PM] Request textDocument/definition failed.
+  Message: no object found for ident border: no object found
+  Code: 0 
+[Info  - 6:21:59 PM] 2021/12/30 18:21:59 background imports cache refresh starting
+
+[Info  - 6:21:59 PM] 2021/12/30 18:21:59 background refresh finished after 28.175394ms
+
+[Error - 6:22:04 PM] 2021/12/30 18:22:04 no signature help: cannot find an enclosing function
+	position={17 51}
+
+[Error - 6:22:05 PM] 2021/12/30 18:22:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:18:52: expected ';', found Foreground
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:22:05 PM] 2021/12/30 18:22:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:18:52: expected ';', found Foreground
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:22:06 PM] 2021/12/30 18:22:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:18:76: expected ';', found Foreground
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:22:31 PM] 2021/12/30 18:22:31 background imports cache refresh starting
+
+[Info  - 6:22:31 PM] 2021/12/30 18:22:31 background refresh finished after 28.261578ms
+
+[Error - 6:23:16 PM] 2021/12/30 18:23:16 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 6:23:19 PM] 2021/12/30 18:23:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:56:29: unknown escape sequence
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 6:23:22 PM] 2021/12/30 18:23:22 background imports cache refresh starting
+
+[Info  - 6:23:22 PM] 2021/12/30 18:23:22 background refresh finished after 25.912158ms
+
+[Error - 6:23:44 PM] 2021/12/30 18:23:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:18:76: expected ';', found Foreground
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:23:45 PM] 2021/12/30 18:23:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:18:52: expected ';', found Foreground
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 6:23:48 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 6:24:12 PM] 2021/12/30 18:24:12 background imports cache refresh starting
+
+[Info  - 6:24:12 PM] 2021/12/30 18:24:12 background refresh finished after 40.399041ms
+
+[Info  - 6:29:28 PM] 2021/12/30 18:29:28 background imports cache refresh starting
+
+[Info  - 6:29:28 PM] 2021/12/30 18:29:28 background refresh finished after 29.208954ms
+

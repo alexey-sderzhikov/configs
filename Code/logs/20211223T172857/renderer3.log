@@ -1,0 +1,9 @@
+[2021-12-23 17:29:08.892] [renderer3] [error] [Extension Host] (node:25031) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-23 17:29:21.417] [renderer3] [error] [Extension Host] (node:25106) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-23 18:25:13.642] [renderer3] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)

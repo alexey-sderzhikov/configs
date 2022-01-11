@@ -1,0 +1,188 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:67:24 undeclared name: PROJECTS (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:14:8 undeclared name: PROJECTS (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:16:8 undeclared name: ISSUES (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:18:8 undeclared name: INPUT_TIME_ENTRY (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:20:8 undeclared name: ERROR (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:64:31 undeclared name: ISSUES (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:78:31 undeclared name: INPUT_TIME_ENTRY (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:159:30 undeclared name: ERROR (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:36:7 undeclared name: PROJECTS (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:38:7 undeclared name: ISSUES (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:40:7 undeclared name: INPUT_TIME_ENTRY (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:42:7 undeclared name: ERROR (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:138:15 undeclared name: TimeEntry (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:193:19 func RmClient.getTimeEntrieList is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:142:14 cannot use hours (variable of type int) as float32 value in struct literal (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:194:5 expected identifier on left side of := (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:196:2 expected operand, found 'if' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:197:3 expected operand, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:212:3 expected '}', found 'EOF' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:194:5 expected identifier on left side of := (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:196:2 expected operand, found 'if' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:197:3 expected operand, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:212:3 expected '}', found 'EOF' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:194:5 expected identifier on left side of := (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:196:2 expected operand, found 'if' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:197:3 expected operand, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:212:3 expected '}', found 'EOF' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:193:19 func RmClient.getTimeEntrieList is unused (U1000)
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:195:3 this value of userId is never used (SA4006)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/restapi/restapi.go:200:19 func RmClient.getTimeEntrieList is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:20:2 field timeEntries is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:93:3 te declared but not used (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:93:25 m.redmineClient.GetTimeEntryList undefined (type *restapi.RmClient has no field or method GetTimeEntryList) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:157:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:93:3 te declared but not used (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:93:9 cannot initialize 1 variables with 2 values (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:93:42 not enough arguments in call to m.redmineClient.GetTimeEntryList (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:157:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:168:1 missing return (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:185:10 cannot use m.navigation(msg) (value of type tea.Model) as model value in return statement (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:99:16 func model.viewTimeEntries is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+

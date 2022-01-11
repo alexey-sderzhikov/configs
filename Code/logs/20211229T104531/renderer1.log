@@ -1,0 +1,42 @@
+[2021-12-29 10:45:33.054] [renderer1] [error] [Extension Host] (node:2647) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-29 11:43:15.405] [renderer1] [error] no object found for ident s: no object found: Error: no object found for ident s: no object found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 11:45:07.073] [renderer1] [warning] {"name":"Error","message":"142:4: expected operand, found 'return' (and 1 more errors)"}
+[2021-12-29 11:45:22.048] [renderer1] [warning] {"name":"Error","message":"142:4: expected operand, found 'return' (and 1 more errors)"}
+[2021-12-29 13:10:10.285] [renderer1] [error] context canceled: Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 13:21:28.005] [renderer1] [warning] {"name":"Error","message":"77:12: expected '==', found '='"}
+[2021-12-29 13:23:40.321] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 13:42:43.183] [renderer1] [warning] {"name":"Error","message":"80:2: expected identifier on left side of :="}
+[2021-12-29 13:43:34.781] [renderer1] [warning] {"name":"Error","message":"84:2: expected identifier on left side of :="}
+[2021-12-29 13:44:50.994] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 13:45:23.315] [renderer1] [error] no object found for ident byteList: no object found: Error: no object found for ident byteList: no object found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 13:50:11.126] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-29 13:50:45.587] [renderer1] [error] no identifier found: Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)

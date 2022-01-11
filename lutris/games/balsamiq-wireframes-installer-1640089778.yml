@@ -1,0 +1,7 @@
+game:
+  exe: /home/aosderzhikov/software/balsamiq/drive_c/Program Files/Balsamiq/Balsamiq
+    Wireframes/BalsamiqWireframes.exe
+  prefix: /home/aosderzhikov/software/balsamiq
+wine:
+  dxvk: false
+  version: lutris-fshack-6.21-6-x86_64

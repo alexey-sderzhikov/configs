@@ -1,0 +1,38 @@
+[Info  - 11:16:11 AM] 2021/12/28 11:16:11 go env for /home/aosderzhikov/go/src/regent
+(root /home/aosderzhikov/go/src/regent)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOROOT=/usr/local/go
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GONOSUMDB=
+GOPRIVATE=
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GOINSECURE=
+GONOPROXY=
+GO111MODULE=
+GOMOD=/home/aosderzhikov/go/src/regent/go.mod
+GOPATH=/home/aosderzhikov/go
+GOSUMDB=sum.golang.org
+GOCACHE=/home/aosderzhikov/.cache/go-build
+
+
+[Info  - 11:16:12 AM] 2021/12/28 11:16:12 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/go/src/regent
+	query=[builtin github.com/alexey-sderzhikov/regent/...]
+	packages=4
+
+[Info  - 11:16:13 AM] 2021/12/28 11:16:13 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 11:16:13 AM] 2021/12/28 11:16:13 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 11:16:13 AM] 2021/12/28 11:16:13 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 11:16:13 AM] 2021/12/28 11:16:13 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+

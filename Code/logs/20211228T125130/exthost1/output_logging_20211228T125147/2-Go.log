@@ -1,0 +1,107 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:6:1 expected 'STRING', found '}' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:25:2 block declared but not used (compile)
+/home/aosderzhikov/go/src/regent/cli/view.go:25:57 undeclared name: fancyStyledParagraph (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:36:25 border.Render undefined (type lipgloss.Border has no field or method Render) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:69:57 missing ',' before newline in argument list (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:69:57 missing ',' before newline in argument list (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:69:57 missing ',' before newline in argument list (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:69:57 missing ',' before newline in argument list (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+

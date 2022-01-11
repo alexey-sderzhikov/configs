@@ -1,0 +1,42 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/aosderzhikov/go/src/bubbletea
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/aosderzhikov/go/src/bubbletea/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :examples/list-simple/main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-simple/main.go
+> git cat-file -s 3d0449b51ccf51512ef570bd459a4477bb9f82e1
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/aosderzhikov/go/src/bubbletea/examples/list-simple/main.go
+> git check-ignore -v -z --stdin
+> git show --textconv :examples/views/main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/views/main.go
+> git cat-file -s 5b4ed925f96422c5c548958c6524413c9fde0c8d
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :examples/list-fancy/delegate.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-fancy/delegate.go
+> git cat-file -s e332b83c316320776271eb390a7f8e6a818a6ac9
+> git show --textconv :examples/list-fancy/main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-fancy/main.go
+> git cat-file -s 7ae9caffd8cd32ddf968f20142cc43690a15cd46
+> git show --textconv :examples/list-fancy/randomitems.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-fancy/randomitems.go
+> git cat-file -s 9a06cd9a58c1dcab18fe312e817bb1568c84beb6
+> git show --textconv :examples/list-fancy/main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-fancy/main.go
+> git cat-file -s 7ae9caffd8cd32ddf968f20142cc43690a15cd46
+> git show --textconv :examples/list-fancy/delegate.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-fancy/delegate.go
+> git cat-file -s e332b83c316320776271eb390a7f8e6a818a6ac9
+> git show --textconv :examples/list-simple/main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/bubbletea/examples/list-simple/main.go
+> git cat-file -s 3d0449b51ccf51512ef570bd459a4477bb9f82e1
+> git check-ignore -v -z --stdin

@@ -1,0 +1,14 @@
+[2021-12-30 17:01:47.670] [main] [info] update#setState idle
+[2021-12-30 17:01:47.709] [main] [info] ExtensionHostStarterWorker created
+[2021-12-30 17:01:48.656] [main] [info] Starting extension host with pid 2391 (fork() took 20 ms).
+[2021-12-30 17:02:17.676] [main] [info] update#setState checking for updates
+[2021-12-30 17:02:17.736] [main] [info] update#setState idle
+[2021-12-30 17:34:31.172] [main] [info] Starting extension host with pid 8528 (fork() took 4 ms).
+[2021-12-30 17:34:50.625] [main] [info] Extension host with pid 8528 exited with code: 0, signal: null.
+[2021-12-30 18:02:17.773] [main] [info] update#setState checking for updates
+[2021-12-30 18:02:17.993] [main] [info] update#setState idle
+[2021-12-30 18:31:09.456] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 18:31:09.658] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 18:31:09.860] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 19:02:17.865] [main] [info] update#setState checking for updates
+[2021-12-30 19:02:18.273] [main] [info] update#setState idle

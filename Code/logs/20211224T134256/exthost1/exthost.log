@@ -1,0 +1,324 @@
+[2021-12-24 13:42:58.256] [exthost] [info] Extension host with pid 2313 started
+[2021-12-24 13:42:58.256] [exthost] [info] Skipping acquiring lock for /home/aosderzhikov/.config/Code/User/workspaceStorage/2095539c9317d1e4abd9cba395dd024b.
+[2021-12-24 13:42:58.421] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-24 13:42:58.432] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2021-12-24 13:42:58.570] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-24 13:42:58.574] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-24 13:42:58.852] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-24 13:42:58.895] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-24 13:42:58.958] [exthost] [info] Eager extensions activated
+[2021-12-24 13:42:59.016] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 13:42:59.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 13:42:59.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-24 13:42:59.774] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 13:42:59.781] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:106340)
+[2021-12-24 13:43:21.561] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-24 13:43:21.581] [exthost] [info] Extension host with pid 2313 exiting with code 0
+[2021-12-24 13:43:23.324] [exthost] [info] Extension host with pid 2627 started
+[2021-12-24 13:43:23.324] [exthost] [info] Skipping acquiring lock for /home/aosderzhikov/.config/Code/User/workspaceStorage/9ac011fcd18ddf6f573876d0e098a573.
+[2021-12-24 13:43:23.538] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-24 13:43:23.544] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2021-12-24 13:43:23.605] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-24 13:43:23.607] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-24 13:43:23.786] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-24 13:43:23.810] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-24 13:43:23.921] [exthost] [info] Eager extensions activated
+[2021-12-24 13:43:24.008] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-24 13:43:24.019] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 13:43:24.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-24 13:43:24.686] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 13:43:24.710] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:11056:31
+	at async V.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:106340)
+[2021-12-24 15:23:56.813] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:23:56.814] [exthost] [error] Error: Illegal argument: range
+	at P (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:5:1232)
+	at new _e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:37633)
+	at new _e (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:17301)
+	at new ProtocolDocumentLink (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:7754:9)
+	at asDocumentLink (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:9173:20)
+	at Array.map (<anonymous>)
+	at asDocumentLinks (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:9186:22)
+	at async V.provideLinks (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:106340)
+[2021-12-24 15:27:35.394] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:27:35.394] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 15:28:47.655] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:47.655] [exthost] [error] Error: no object found for ident WriteString: no object found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:28:54.640] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:54.641] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:28:54.839] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:54.839] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:28:55.141] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:55.141] [exthost] [error] Error: no object found for ident WriteString: no object found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:28:57.191] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:57.192] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:28:57.491] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:28:57.491] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:29:14.463] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:29:14.463] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:34:58.613] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:34:58.613] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 15:37:24.601] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:37:24.601] [exthost] [error] Error: 186:2: expected operand, found '}' (and 1 more errors)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:37:49.901] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:37:49.901] [exthost] [error] Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:39:32.326] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:39:32.326] [exthost] [error] Error: no imported package for github.com/charmbracelet/bubbles/textinput
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:43:25.048] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:43:25.049] [exthost] [error] Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:52:19.472] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:52:19.472] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:54:33.253] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:54:33.254] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:54:33.350] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:54:33.350] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:57:41.410] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:57:41.411] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 15:57:50.163] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:57:50.163] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:57:50.229] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:57:50.229] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:57:50.329] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:57:50.329] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:58:34.173] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:58:34.173] [exthost] [error] Error: 141:1: expected operand, found 'case' (and 9 more errors)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 15:58:37.259] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 15:58:37.259] [exthost] [error] Error: 141:1: expected '}', found 'case' (and 7 more errors)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:04:38.098] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:04:38.098] [exthost] [error] Error: 191:2: expected declaration, found 'return' (and 3 more errors)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:04:55.145] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:04:55.145] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:06:32.683] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:32.683] [exthost] [error] Error: 198:1: expected '}', found 'case' (and 1 more errors)
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:06:39.715] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:39.716] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:06:39.815] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:39.815] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:06:40.016] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:40.016] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:06:40.215] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:40.215] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:06:40.815] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:06:40.815] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:12:51.514] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:12:51.514] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:12:54.010] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:12:54.010] [exthost] [error] Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:17:19.769] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:17:19.770] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:18:56.192] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:18:56.192] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:20:45.212] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:20:45.212] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:40:37.349] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:40:37.349] [exthost] [error] Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:43:48.907] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:43:48.907] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:10483:31
+	at async o.provideHover (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:90908)
+[2021-12-24 16:44:00.883] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:44:00.883] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:44:59.632] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:44:59.632] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:46:59.959] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:46:59.959] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 16:48:46.787] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:48:46.787] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12506:31
+	at async Object.provideFoldingRanges (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73136:24)
+	at async ne.provideFoldingRanges (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:107898)
+[2021-12-24 16:50:09.744] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 16:50:09.744] [exthost] [error] Error: context canceled
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 17:22:15.134] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-12-24 17:28:19.348] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 17:28:19.349] [exthost] [error] Error: no identifier found
+	at handleResponse (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4366:40)
+	at processMessageQueue (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4204:13)
+	at Immediate.<anonymous> (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:4190:11)
+	at processImmediate (internal/timers.js:461:21)
+[2021-12-24 17:35:10.794] [exthost] [error] [golang.go] provider FAILED
+[2021-12-24 17:35:10.794] [exthost] [error] Canceled: Canceled
+	at LanguageClient2.makeCancelError (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12133:24)
+	at LanguageClient2.handleFailedRequest (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:12124:24)
+	at /home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:10439:31
+	at async Object.provideCompletionItem (/home/aosderzhikov/.vscode/extensions/golang.go-0.30.0/dist/goMain.js:73177:22)
+	at async z.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:95:101516)

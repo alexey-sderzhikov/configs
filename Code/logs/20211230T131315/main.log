@@ -1,0 +1,14 @@
+[2021-12-30 13:13:15.404] [main] [info] update#setState idle
+[2021-12-30 13:13:15.444] [main] [info] ExtensionHostStarterWorker created
+[2021-12-30 13:13:16.335] [main] [info] Starting extension host with pid 6093 (fork() took 16 ms).
+[2021-12-30 13:13:39.928] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 13:13:40.130] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 13:13:40.332] [main] [warning] Error attempting to set a password:  {}
+[2021-12-30 13:13:45.408] [main] [info] update#setState checking for updates
+[2021-12-30 13:13:45.467] [main] [info] update#setState idle
+[2021-12-30 14:13:45.418] [main] [info] update#setState checking for updates
+[2021-12-30 14:13:45.779] [main] [info] update#setState idle
+[2021-12-30 15:13:45.448] [main] [info] update#setState checking for updates
+[2021-12-30 15:13:45.675] [main] [info] update#setState idle
+[2021-12-30 16:13:45.474] [main] [info] update#setState checking for updates
+[2021-12-30 16:13:45.666] [main] [info] update#setState idle

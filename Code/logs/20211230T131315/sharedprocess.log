@@ -1,0 +1,13 @@
+[2021-12-30 13:13:17.669] [sharedprocess] [info] Starting worker process with pid 6140 (type: watcherServiceParcelSharedProcess, window: 1).
+[2021-12-30 13:13:49.898] [sharedprocess] [info] Installing extension: ms-azuretools.vscode-docker
+[2021-12-30 13:13:49.946] [sharedprocess] [info] Installing extension: ms-vscode-remote.remote-containers
+[2021-12-30 13:13:53.429] [sharedprocess] [info] Downloaded extension: ms-azuretools.vscode-docker /home/aosderzhikov/.config/Code/CachedExtensionVSIXs/ms-azuretools.vscode-docker-1.18.0
+[2021-12-30 13:13:53.558] [sharedprocess] [info] Downloaded extension: ms-vscode-remote.remote-containers /home/aosderzhikov/.config/Code/CachedExtensionVSIXs/ms-vscode-remote.remote-containers-0.209.6
+[2021-12-30 13:13:53.562] [sharedprocess] [info] Extracted extension to /home/aosderzhikov/.vscode/extensions/.698d72f0-95a7-4c6b-8ce7-0bd02fed9626: ms-azuretools.vscode-docker
+[2021-12-30 13:13:53.569] [sharedprocess] [info] Renamed to /home/aosderzhikov/.vscode/extensions/ms-azuretools.vscode-docker-1.18.0
+[2021-12-30 13:13:53.575] [sharedprocess] [info] Extracting completed. ms-azuretools.vscode-docker
+[2021-12-30 13:13:53.579] [sharedprocess] [info] Extension installed successfully: ms-azuretools.vscode-docker
+[2021-12-30 13:13:54.105] [sharedprocess] [info] Extracted extension to /home/aosderzhikov/.vscode/extensions/.d03c4703-e471-4107-adb7-2229393cc3ce: ms-vscode-remote.remote-containers
+[2021-12-30 13:13:54.109] [sharedprocess] [info] Renamed to /home/aosderzhikov/.vscode/extensions/ms-vscode-remote.remote-containers-0.209.6
+[2021-12-30 13:13:54.111] [sharedprocess] [info] Extracting completed. ms-vscode-remote.remote-containers
+[2021-12-30 13:13:54.113] [sharedprocess] [info] Extension installed successfully: ms-vscode-remote.remote-containers

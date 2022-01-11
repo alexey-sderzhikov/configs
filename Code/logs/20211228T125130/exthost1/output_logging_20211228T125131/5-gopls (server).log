@@ -1,0 +1,66 @@
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go env for /home/aosderzhikov/dwn
+(root /home/aosderzhikov/dwn)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GONOPROXY=
+GONOSUMDB=
+GOPATH=/home/aosderzhikov/go
+GOROOT=/usr/local/go
+GOSUMDB=sum.golang.org
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GOINSECURE=
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GOFLAGS=
+GOPROXY=https://proxy.golang.org,direct
+GOMOD=/dev/null
+GOPRIVATE=
+GO111MODULE=
+
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/dwn
+	query=[./ builtin]
+	packages=2
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/dwn
+	query=[./]
+	packages=1
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/dwn
+	query=[./]
+	packages=1
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=1
+	directory=/home/aosderzhikov/dwn
+	query=[file=/home/aosderzhikov/dwn/ctx.go]
+	packages=1
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=1
+	package="command-line-arguments"
+	files=[/home/aosderzhikov/dwn/ctx.go]
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/dwn
+	query=[./]
+	packages=1
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=1
+	directory=/home/aosderzhikov/dwn
+	query=[file=/home/aosderzhikov/dwn/ctx.go]
+	packages=1
+
+[Info  - 12:51:32 PM] 2021/12/28 12:51:32 go/packages.Load
+	snapshot=1
+	package="command-line-arguments"
+	files=[/home/aosderzhikov/dwn/ctx.go]
+

@@ -1,0 +1,984 @@
+Validating found git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /home/aosderzhikov/go/src/regent
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git check-ignore -v -z --stdin
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 75a840077330d06206bee64babe02b08612fe40a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 75a840077330d06206bee64babe02b08612fe40a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s a2d121100450e5e3d385d6e8087884226dbdf194
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 75a840077330d06206bee64babe02b08612fe40a
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s a2d121100450e5e3d385d6e8087884226dbdf194
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 75a840077330d06206bee64babe02b08612fe40a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 75a840077330d06206bee64babe02b08612fe40a
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s a2d121100450e5e3d385d6e8087884226dbdf194
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s a2d121100450e5e3d385d6e8087884226dbdf194
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 0181b3e575abf827b87f0ed9bc2203e9650efe94
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :cli/cli.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :cli/cli.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+Opening repository for path='/usr/local/go/src/runtime' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :cli/cli.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/cli/cli.go
+> git cat-file -s 5ab3c8ac3f89527c4bb7af2ed380050603f71550
+> git show --textconv :main.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/main.go
+> git cat-file -s 7f789cec0344135ccca136a59bbdfcef4a781eef
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git show --textconv :restapi/models.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/models.go
+> git cat-file -s 34903a43caf222d25d910b676674861a405ee185
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :restapi/restapi.go
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 49decec0a15e186e659e1b5dd438f62a7fdd5071
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 77f421dd12cd895aec9d4c65cdf703fc1933eb7b
+> git show --textconv :restapi/restapi.go
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/aosderzhikov/go/src/regent/restapi/restapi.go
+> git cat-file -s 77f421dd12cd895aec9d4c65cdf703fc1933eb7b
+> git show --textconv :restapi/restapi.go

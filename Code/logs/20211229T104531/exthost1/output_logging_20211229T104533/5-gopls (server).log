@@ -1,0 +1,2100 @@
+[Info  - 10:45:33 AM] 2021/12/29 10:45:33 go env for /home/aosderzhikov/go/src/regent
+(root /home/aosderzhikov/go/src/regent)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = true)
+(build flags: [])
+GOFLAGS=
+GOPRIVATE=
+GO111MODULE=
+GOINSECURE=
+GOSUMDB=sum.golang.org
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GONOSUMDB=
+GOROOT=/usr/local/go
+GOMOD=/home/aosderzhikov/go/src/regent/go.mod
+GOPATH=/home/aosderzhikov/go
+GOPROXY=https://proxy.golang.org,direct
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GONOPROXY=
+
+
+[Info  - 10:45:34 AM] 2021/12/29 10:45:34 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/go/src/regent
+	query=[builtin github.com/alexey-sderzhikov/regent/...]
+	packages=4
+
+[Info  - 10:45:34 AM] 2021/12/29 10:45:34 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 10:45:35 AM] 2021/12/29 10:45:35 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 10:45:35 AM] 2021/12/29 10:45:35 discovered missing identifiers: map[cpuMask:true]
+	package="golang.org/x/sys/unix"
+
+[Info  - 10:45:35 AM] 2021/12/29 10:45:35 discovered missing identifiers: map[whitespace:true]
+	package="github.com/charmbracelet/lipgloss"
+
+[Info  - 10:46:04 AM] 2021/12/29 10:46:04 background imports cache refresh starting
+
+[Info  - 10:46:04 AM] 2021/12/29 10:46:04 background refresh finished after 209.266806ms
+
+[Info  - 10:46:42 AM] 2021/12/29 10:46:42 background imports cache refresh starting
+
+[Info  - 10:46:43 AM] 2021/12/29 10:46:42 background refresh finished after 22.331652ms
+
+[Info  - 10:47:13 AM] 2021/12/29 10:47:13 background imports cache refresh starting
+
+[Info  - 10:47:13 AM] 2021/12/29 10:47:13 background refresh finished after 19.655506ms
+
+[Info  - 10:48:04 AM] 2021/12/29 10:48:04 background imports cache refresh starting
+
+[Info  - 10:48:04 AM] 2021/12/29 10:48:04 background refresh finished after 20.573856ms
+
+[Error - 10:48:34 AM] 2021/12/29 10:48:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:1: expected declaration, found va
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 10:48:35 AM] 2021/12/29 10:48:35 background imports cache refresh starting
+
+[Info  - 10:48:35 AM] 2021/12/29 10:48:35 background refresh finished after 28.08279ms
+
+[Error - 10:48:35 AM] 2021/12/29 10:48:35 no completions found: this is a definition of var h invalid type
+	position={31 5}
+
+[Error - 10:48:36 AM] 2021/12/29 10:48:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:37 AM] 2021/12/29 10:48:37 no completions found: this is a definition of var helpe invalid type
+	position={31 9}
+
+[Error - 10:48:37 AM] 2021/12/29 10:48:37 no completions found: this is a definition of var helper invalid type
+	position={31 10}
+
+[Error - 10:48:37 AM] 2021/12/29 10:48:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:38 AM] 2021/12/29 10:48:38 no completions found: this is a definition of var helperT invalid type
+	position={31 11}
+
+[Error - 10:48:38 AM] 2021/12/29 10:48:38 no completions found: this is a definition of var helperTe invalid type
+	position={31 12}
+
+[Error - 10:48:38 AM] 2021/12/29 10:48:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:38 AM] 2021/12/29 10:48:38 no completions found: this is a definition of var helperTex invalid type
+	position={31 13}
+
+[Error - 10:48:39 AM] 2021/12/29 10:48:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:39 AM] 2021/12/29 10:48:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:39 AM] 2021/12/29 10:48:39 no completions found: this is a definition of var helperTex invalid type
+	position={31 13}
+
+[Error - 10:48:39 AM] 2021/12/29 10:48:39 no completions found: this is a definition of var helperText invalid type
+	position={31 14}
+
+[Error - 10:48:40 AM] 2021/12/29 10:48:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 10:48:41 AM] 2021/12/29 10:48:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:34:23: expected ';', found string (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 10:49:16 AM] 2021/12/29 10:49:16 background imports cache refresh starting
+
+[Info  - 10:49:16 AM] 2021/12/29 10:49:16 background refresh finished after 29.813877ms
+
+[Info  - 10:49:46 AM] 2021/12/29 10:49:46 background imports cache refresh starting
+
+[Info  - 10:49:46 AM] 2021/12/29 10:49:46 background refresh finished after 26.898269ms
+
+[Error - 11:39:55 AM] 2021/12/29 11:39:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:20: unknown escape sequence
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:39:57 AM] 2021/12/29 11:39:57 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:32:18: string literal not terminated
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 11:40:13 AM] 2021/12/29 11:40:13 background imports cache refresh starting
+
+[Info  - 11:40:13 AM] 2021/12/29 11:40:13 background refresh finished after 27.714843ms
+
+[Error - 11:40:43 AM] 2021/12/29 11:40:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:116:2: expected ';', found 'return' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:40:44 AM] 2021/12/29 11:40:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:116:2: expected ';', found 'return' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:40:51 AM] 2021/12/29 11:40:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:2: expected ';', found 'return' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:40:52 AM] 2021/12/29 11:40:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:2: expected ';', found 'return' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 11:41:09 AM] 2021/12/29 11:41:09 background imports cache refresh starting
+
+[Info  - 11:41:09 AM] 2021/12/29 11:41:09 background refresh finished after 29.13096ms
+
+[Error - 11:43:15 AM] Request textDocument/definition failed.
+  Message: no object found for ident s: no object found
+  Code: 0 
+[Info  - 11:43:20 AM] 2021/12/29 11:43:20 background imports cache refresh starting
+
+[Info  - 11:43:20 AM] 2021/12/29 11:43:20 background refresh finished after 28.286592ms
+
+[Error - 11:43:27 AM] 2021/12/29 11:43:27 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:43:27 AM] 2021/12/29 11:43:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:18: string literal not terminated (and 12 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:27 AM] 2021/12/29 11:43:27 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Error - 11:43:28 AM] 2021/12/29 11:43:28 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:43:29 AM] 2021/12/29 11:43:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:20: missing ',' in argument list (and 9 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:29 AM] 2021/12/29 11:43:29 analyzer "printf" failed: analysis printf for package github.com/alexey-sderzhikov/regent/cli panicked: runtime error: invalid memory address or nil pointer dereference
+
+[Error - 11:43:29 AM] 2021/12/29 11:43:29 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Error - 11:43:30 AM] 2021/12/29 11:43:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:20: missing ',' in argument list (and 9 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:30 AM] 2021/12/29 11:43:30 analyzer "printf" failed: analysis printf for package github.com/alexey-sderzhikov/regent/cli panicked: runtime error: invalid memory address or nil pointer dereference
+
+[Error - 11:43:30 AM] 2021/12/29 11:43:30 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:18: string literal not terminated (and 12 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:22: missing ',' in argument list (and 9 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 analyzer "printf" failed: analysis printf for package github.com/alexey-sderzhikov/regent/cli panicked: runtime error: invalid memory address or nil pointer dereference
+
+[Error - 11:43:31 AM] 2021/12/29 11:43:31 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Error - 11:43:32 AM] 2021/12/29 11:43:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:22: missing ',' in argument list (and 9 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:32 AM] 2021/12/29 11:43:32 analyzer "printf" failed: analysis printf for package github.com/alexey-sderzhikov/regent/cli panicked: runtime error: invalid memory address or nil pointer dereference
+
+[Error - 11:43:36 AM] 2021/12/29 11:43:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:30: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:37 AM] 2021/12/29 11:43:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:30: missing ',' in argument list
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 11:43:38 AM] 2021/12/29 11:43:38 no signature help: no signature help within a string literal
+	position={122 30}
+
+[Error - 11:43:39 AM] 2021/12/29 11:43:39 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:43:40 AM] 2021/12/29 11:43:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:123:31: string literal not terminated (and 12 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 11:43:51 AM] 2021/12/29 11:43:51 background imports cache refresh starting
+
+[Info  - 11:43:51 AM] 2021/12/29 11:43:51 background refresh finished after 30.475778ms
+
+[Error - 11:44:10 AM] 2021/12/29 11:44:10 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:44:10 AM] 2021/12/29 11:44:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:11:1: expected '}', found d (and 9 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 11:44:35 AM] 2021/12/29 11:44:35 background imports cache refresh starting
+
+[Info  - 11:44:35 AM] 2021/12/29 11:44:35 background refresh finished after 30.443291ms
+
+[Error - 11:44:43 AM] 2021/12/29 11:44:43 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:44:43 AM] 2021/12/29 11:44:43 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:44:44 AM] 2021/12/29 11:44:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:11: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:44 AM] 2021/12/29 11:44:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:13: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:45 AM] 2021/12/29 11:44:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:13: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:46 AM] 2021/12/29 11:44:46 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:47 AM] 2021/12/29 11:44:47 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:15: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:49 AM] 2021/12/29 11:44:49 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:15: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:49 AM] 2021/12/29 11:44:49 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:15: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:50 AM] 2021/12/29 11:44:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:16: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:50 AM] 2021/12/29 11:44:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:18: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:53 AM] 2021/12/29 11:44:53 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:44:53 AM] 2021/12/29 11:44:53 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:44:53 AM] 2021/12/29 11:44:53 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 11:44:55 AM] 2021/12/29 11:44:55 no signature help: cannot find an enclosing function
+	position={141 13}
+
+[Error - 11:44:56 AM] 2021/12/29 11:44:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:57 AM] 2021/12/29 11:44:57 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:57 AM] 2021/12/29 11:44:57 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:58 AM] 2021/12/29 11:44:58 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:44:59 AM] 2021/12/29 11:44:59 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:00 AM] 2021/12/29 11:45:00 no signature help: cannot find an enclosing function
+	position={141 23}
+
+[Error - 11:45:00 AM] 2021/12/29 11:45:00 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 11:45:05 AM] 2021/12/29 11:45:05 background imports cache refresh starting
+
+[Info  - 11:45:05 AM] 2021/12/29 11:45:05 background refresh finished after 35.677427ms
+
+[Error - 11:45:05 AM] 2021/12/29 11:45:05 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 11:45:06 AM] 2021/12/29 11:45:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:06 AM] 2021/12/29 11:45:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:07 AM] 2021/12/29 11:45:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:07 AM] Request textDocument/formatting failed.
+  Message: 142:4: expected operand, found 'return' (and 1 more errors)
+  Code: 0 
+[Error - 11:45:07 AM] 2021/12/29 11:45:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:07 AM] 2021/12/29 11:45:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:14 AM] 2021/12/29 11:45:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:15 AM] 2021/12/29 11:45:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:15 AM] 2021/12/29 11:45:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:16 AM] 2021/12/29 11:45:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:16 AM] 2021/12/29 11:45:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:17 AM] 2021/12/29 11:45:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:17 AM] 2021/12/29 11:45:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:18 AM] 2021/12/29 11:45:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:19 AM] 2021/12/29 11:45:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:20 AM] 2021/12/29 11:45:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:21 AM] 2021/12/29 11:45:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:21 AM] 2021/12/29 11:45:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:22 AM] 2021/12/29 11:45:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:22 AM] Request textDocument/formatting failed.
+  Message: 142:4: expected operand, found 'return' (and 1 more errors)
+  Code: 0 
+[Error - 11:45:22 AM] 2021/12/29 11:45:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:23 AM] 2021/12/29 11:45:23 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:26 AM] 2021/12/29 11:45:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:26 AM] 2021/12/29 11:45:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:142:4: expected operand, found 'return' (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 11:45:26 AM] 2021/12/29 11:45:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:141:21: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 11:45:58 AM] 2021/12/29 11:45:58 background imports cache refresh starting
+
+[Info  - 11:45:58 AM] 2021/12/29 11:45:58 background refresh finished after 28.192152ms
+
+[Info  - 12:17:38 PM] 2021/12/29 12:17:38 background imports cache refresh starting
+
+[Info  - 12:17:38 PM] 2021/12/29 12:17:38 background refresh finished after 28.533584ms
+
+[Info  - 12:20:08 PM] 2021/12/29 12:20:08 background imports cache refresh starting
+
+[Info  - 12:20:08 PM] 2021/12/29 12:20:08 background refresh finished after 28.810604ms
+
+[Error - 12:20:36 PM] 2021/12/29 12:20:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:119:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 12:21:07 PM] 2021/12/29 12:21:07 background imports cache refresh starting
+
+[Info  - 12:21:07 PM] 2021/12/29 12:21:07 background refresh finished after 29.710242ms
+
+[Info  - 12:46:40 PM] 2021/12/29 12:46:40 background imports cache refresh starting
+
+[Info  - 12:46:40 PM] 2021/12/29 12:46:40 background refresh finished after 29.067533ms
+
+[Info  - 12:47:17 PM] 2021/12/29 12:47:17 background imports cache refresh starting
+
+[Info  - 12:47:17 PM] 2021/12/29 12:47:17 background refresh finished after 23.538464ms
+
+[Info  - 12:53:06 PM] 2021/12/29 12:53:06 background imports cache refresh starting
+
+[Info  - 12:53:06 PM] 2021/12/29 12:53:06 background refresh finished after 28.674306ms
+
+[Info  - 12:53:39 PM] 2021/12/29 12:53:39 background imports cache refresh starting
+
+[Info  - 12:53:39 PM] 2021/12/29 12:53:39 background refresh finished after 30.276808ms
+
+[Info  - 12:54:14 PM] 2021/12/29 12:54:14 background imports cache refresh starting
+
+[Info  - 12:54:14 PM] 2021/12/29 12:54:14 background refresh finished after 29.116623ms
+
+[Info  - 12:55:59 PM] 2021/12/29 12:55:59 background imports cache refresh starting
+
+[Info  - 12:55:59 PM] 2021/12/29 12:55:59 background refresh finished after 26.893585ms
+
+[Error - 12:56:09 PM] 2021/12/29 12:56:09 no completions found: this is a definition of type i invalid type
+	position={21 6}
+
+[Error - 12:56:09 PM] 2021/12/29 12:56:09 no completions found: this is a definition of type inpu invalid type
+	position={21 9}
+
+[Error - 12:56:10 PM] 2021/12/29 12:56:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:22:11: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:56:10 PM] 2021/12/29 12:56:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:22:12: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 12:56:33 PM] 2021/12/29 12:56:33 background imports cache refresh starting
+
+[Info  - 12:56:33 PM] 2021/12/29 12:56:33 background refresh finished after 31.058883ms
+
+[Error - 12:56:48 PM] 2021/12/29 12:56:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:24:7: expected ';', found string (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 12:57:11 PM] 2021/12/29 12:57:11 background imports cache refresh starting
+
+[Info  - 12:57:11 PM] 2021/12/29 12:57:11 background refresh finished after 26.092837ms
+
+[Error - 12:57:27 PM] 2021/12/29 12:57:27 no completions found: this is a definition of type inputS struct{Hours github.com/charmbracelet/bubbles/textinput.Model; Date github.com/charmbracelet/bubbles/textinput.Model; Comments github.com/charmbracelet/bubbles/textinput.Model}
+	position={21 11}
+
+[Error - 12:57:27 PM] 2021/12/29 12:57:27 no completions found: this is a definition of type inputStr struct{Hours github.com/charmbracelet/bubbles/textinput.Model; Date github.com/charmbracelet/bubbles/textinput.Model; Comments github.com/charmbracelet/bubbles/textinput.Model}
+	position={21 13}
+
+[Error - 12:57:27 PM] 2021/12/29 12:57:27 no completions found: this is a definition of type inputStru struct{Hours github.com/charmbracelet/bubbles/textinput.Model; Date github.com/charmbracelet/bubbles/textinput.Model; Comments github.com/charmbracelet/bubbles/textinput.Model}
+	position={21 14}
+
+[Error - 12:57:28 PM] 2021/12/29 12:57:28 no completions found: this is a definition of type inputStruc struct{Hours github.com/charmbracelet/bubbles/textinput.Model; Date github.com/charmbracelet/bubbles/textinput.Model; Comments github.com/charmbracelet/bubbles/textinput.Model}
+	position={21 15}
+
+[Error - 12:57:28 PM] 2021/12/29 12:57:28 no completions found: this is a definition of type inputStruct struct{Hours github.com/charmbracelet/bubbles/textinput.Model; Date github.com/charmbracelet/bubbles/textinput.Model; Comments github.com/charmbracelet/bubbles/textinput.Model}
+	position={21 16}
+
+[Info  - 12:57:41 PM] 2021/12/29 12:57:41 background imports cache refresh starting
+
+[Info  - 12:57:41 PM] 2021/12/29 12:57:41 background refresh finished after 26.703654ms
+
+[Info  - 12:58:12 PM] 2021/12/29 12:58:12 background imports cache refresh starting
+
+[Info  - 12:58:12 PM] 2021/12/29 12:58:12 background refresh finished after 26.404157ms
+
+[Error - 12:58:15 PM] 2021/12/29 12:58:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:66:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:15 PM] 2021/12/29 12:58:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:66:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:15 PM] 2021/12/29 12:58:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:66:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:17 PM] 2021/12/29 12:58:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:67:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:20 PM] 2021/12/29 12:58:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:67:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:20 PM] 2021/12/29 12:58:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:67:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:21 PM] 2021/12/29 12:58:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 12:58:22 PM] 2021/12/29 12:58:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:3: expected statement, found '='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 12:58:46 PM] 2021/12/29 12:58:46 background imports cache refresh starting
+
+[Info  - 12:58:46 PM] 2021/12/29 12:58:46 background refresh finished after 28.841266ms
+
+[Error - 12:59:10 PM] 2021/12/29 12:59:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:62:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 12:59:16 PM] 2021/12/29 12:59:16 background imports cache refresh starting
+
+[Info  - 12:59:16 PM] 2021/12/29 12:59:16 background refresh finished after 30.274208ms
+
+[Error - 12:59:22 PM] 2021/12/29 12:59:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:64:6: expected ';', found ':='
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 12:59:50 PM] 2021/12/29 12:59:50 background imports cache refresh starting
+
+[Info  - 12:59:50 PM] 2021/12/29 12:59:50 background refresh finished after 23.834674ms
+
+[Error - 1:00:56 PM] 2021/12/29 13:00:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:57:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:00:57 PM] 2021/12/29 13:00:57 background imports cache refresh starting
+
+[Info  - 1:00:57 PM] 2021/12/29 13:00:57 background refresh finished after 28.937729ms
+
+[Error - 1:01:21 PM] 2021/12/29 13:01:21 no signature help: cannot find an enclosing function
+	position={63 32}
+
+[Info  - 1:01:27 PM] 2021/12/29 13:01:27 background imports cache refresh starting
+
+[Info  - 1:01:27 PM] 2021/12/29 13:01:27 background refresh finished after 29.690798ms
+
+[Error - 1:01:41 PM] 2021/12/29 13:01:41 no signature help: cannot find an enclosing function
+	position={72 9}
+
+[Error - 1:01:41 PM] 2021/12/29 13:01:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:73:9: expected operand, found ',' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:01:41 PM] 2021/12/29 13:01:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:73:9: expected operand, found ',' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:01:42 PM] 2021/12/29 13:01:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:73:11: expected ';', found nil
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:01:43 PM] 2021/12/29 13:01:43 no signature help: cannot find an enclosing function
+	position={72 10}
+
+[Info  - 1:01:57 PM] 2021/12/29 13:01:57 background imports cache refresh starting
+
+[Info  - 1:01:57 PM] 2021/12/29 13:01:57 background refresh finished after 28.938561ms
+
+[Info  - 1:02:28 PM] 2021/12/29 13:02:28 background imports cache refresh starting
+
+[Info  - 1:02:28 PM] 2021/12/29 13:02:28 background refresh finished after 29.116304ms
+
+[Error - 1:06:08 PM] 2021/12/29 13:06:08 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:06:12 PM] 2021/12/29 13:06:12 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Info  - 1:06:37 PM] 2021/12/29 13:06:37 background imports cache refresh starting
+
+[Info  - 1:06:37 PM] 2021/12/29 13:06:37 background refresh finished after 30.324444ms
+
+[Info  - 1:07:11 PM] 2021/12/29 13:07:11 background imports cache refresh starting
+
+[Info  - 1:07:11 PM] 2021/12/29 13:07:11 background refresh finished after 26.375318ms
+
+[Info  - 1:09:24 PM] 2021/12/29 13:09:24 background imports cache refresh starting
+
+[Info  - 1:09:24 PM] 2021/12/29 13:09:24 background refresh finished after 29.011027ms
+
+[Error - 1:09:31 PM] 2021/12/29 13:09:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:23:11: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:09:32 PM] 2021/12/29 13:09:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:23:11: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:09:46 PM] 2021/12/29 13:09:46 no completions found: this is a definition of const l invalid type
+	position={7 7}
+
+[Error - 1:09:46 PM] 2021/12/29 13:09:46 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:8:7: missing constant value
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:09:57 PM] 2021/12/29 13:09:57 background imports cache refresh starting
+
+[Info  - 1:09:57 PM] 2021/12/29 13:09:57 background refresh finished after 21.362055ms
+
+[Error - 1:10:10 PM] Request textDocument/codeAction failed.
+  Message: context canceled
+  Code: 0 
+[Error - 1:10:10 PM] 2021/12/29 13:10:10 no signature help: cannot find an enclosing function
+	position={68 2}
+
+[Error - 1:10:10 PM] 2021/12/29 13:10:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:2: expected statement, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:11 PM] 2021/12/29 13:10:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:2: expected statement, found '.'
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:12 PM] 2021/12/29 13:10:12 no signature help: cannot find an enclosing function
+	position={68 2}
+
+[Error - 1:10:12 PM] 2021/12/29 13:10:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:2: expected statement, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:26 PM] 2021/12/29 13:10:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:26 PM] 2021/12/29 13:10:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:27 PM] 2021/12/29 13:10:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:28 PM] 2021/12/29 13:10:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:28 PM] 2021/12/29 13:10:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:30 PM] 2021/12/29 13:10:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:30 PM] 2021/12/29 13:10:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:31 PM] 2021/12/29 13:10:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:32 PM] 2021/12/29 13:10:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:32 PM] 2021/12/29 13:10:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:33 PM] 2021/12/29 13:10:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:10:35 PM] 2021/12/29 13:10:35 background imports cache refresh starting
+
+[Error - 1:10:35 PM] 2021/12/29 13:10:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:10:35 PM] 2021/12/29 13:10:35 background refresh finished after 29.799225ms
+
+[Error - 1:10:37 PM] 2021/12/29 13:10:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:39 PM] 2021/12/29 13:10:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:39 PM] 2021/12/29 13:10:39 no signature help: cannot find an enclosing function
+	position={68 31}
+
+[Error - 1:10:40 PM] 2021/12/29 13:10:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:41 PM] 2021/12/29 13:10:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:42 PM] 2021/12/29 13:10:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:43 PM] 2021/12/29 13:10:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:44 PM] 2021/12/29 13:10:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:48 PM] 2021/12/29 13:10:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:48 PM] 2021/12/29 13:10:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:49 PM] 2021/12/29 13:10:49 no completions found: this is a definition of field С github.com/charmbracelet/bubbles/textinput.Model
+	position={23 2}
+
+[Error - 1:10:50 PM] 2021/12/29 13:10:50 no completions found: this is a definition of field Сщ github.com/charmbracelet/bubbles/textinput.Model
+	position={23 3}
+
+[Error - 1:10:50 PM] 2021/12/29 13:10:50 no completions found: this is a definition of field Сщь github.com/charmbracelet/bubbles/textinput.Model
+	position={23 4}
+
+[Error - 1:10:50 PM] 2021/12/29 13:10:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:51 PM] 2021/12/29 13:10:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:52 PM] 2021/12/29 13:10:52 no completions found: this is a definition of field C github.com/charmbracelet/bubbles/textinput.Model
+	position={23 2}
+
+[Error - 1:10:52 PM] 2021/12/29 13:10:52 no completions found: this is a definition of field Comm github.com/charmbracelet/bubbles/textinput.Model
+	position={23 5}
+
+[Error - 1:10:53 PM] 2021/12/29 13:10:53 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:54 PM] 2021/12/29 13:10:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:54 PM] 2021/12/29 13:10:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:54 PM] 2021/12/29 13:10:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:55 PM] 2021/12/29 13:10:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:55 PM] 2021/12/29 13:10:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:56 PM] 2021/12/29 13:10:56 no completions found: this is a definition of field H github.com/charmbracelet/bubbles/textinput.Model
+	position={25 2}
+
+[Error - 1:10:56 PM] 2021/12/29 13:10:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:10:57 PM] 2021/12/29 13:10:57 no completions found: this is a definition of field Hour github.com/charmbracelet/bubbles/textinput.Model
+	position={25 5}
+
+[Error - 1:10:57 PM] 2021/12/29 13:10:57 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:10 PM] 2021/12/29 13:11:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:12 PM] 2021/12/29 13:11:12 no signature help: cannot find an enclosing function
+	position={68 38}
+
+[Error - 1:11:12 PM] 2021/12/29 13:11:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:13 PM] 2021/12/29 13:11:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:14 PM] 2021/12/29 13:11:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:15 PM] 2021/12/29 13:11:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:16 PM] 2021/12/29 13:11:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:16 PM] 2021/12/29 13:11:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected operand, found '{' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:22 PM] 2021/12/29 13:11:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:40 PM] 2021/12/29 13:11:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:42 PM] 2021/12/29 13:11:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:42 PM] 2021/12/29 13:11:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:43 PM] 2021/12/29 13:11:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:43 PM] 2021/12/29 13:11:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:11:44 PM] 2021/12/29 13:11:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:69:20: expected expression (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:05 PM] 2021/12/29 13:12:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:1: expected declaration, found inpu
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:07 PM] 2021/12/29 13:12:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:1: expected declaration, found fi
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:07 PM] 2021/12/29 13:12:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:1: expected 'IDENT', found 'type' (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:08 PM] 2021/12/29 13:12:08 no signature help: cannot find an enclosing function
+	position={28 6}
+
+[Error - 1:12:09 PM] 2021/12/29 13:12:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:9: expected 'IDENT', found newline (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:12:09 PM] 2021/12/29 13:12:09 background imports cache refresh starting
+
+[Info  - 1:12:09 PM] 2021/12/29 13:12:09 background refresh finished after 24.970247ms
+
+[Error - 1:12:10 PM] 2021/12/29 13:12:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:10: expected 'IDENT', found newline (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:11 PM] 2021/12/29 13:12:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:15: expected 'IDENT', found newline (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:13 PM] 2021/12/29 13:12:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:21: expected 'IDENT', found newline (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:13 PM] 2021/12/29 13:12:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:21: expected 'IDENT', found newline (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:18 PM] 2021/12/29 13:12:18 no completions found: this is a definition of func (inputStruct).F(string func(p invalid type) invalid type, _ func(p invalid type) invalid type, page string) invalid type
+	position={28 22}
+
+[Error - 1:12:19 PM] 2021/12/29 13:12:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:25: expected '(', found newline (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:19 PM] 2021/12/29 13:12:19 no completions found: this is a definition of func (inputStruct).Focu(string func(p invalid type) invalid type, _ func(p invalid type) invalid type, page string) invalid type
+	position={28 25}
+
+[Error - 1:12:19 PM] 2021/12/29 13:12:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:29:27: expected '(', found newline (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:12:20 PM] 2021/12/29 13:12:20 no signature help: cannot find an enclosing function
+	position={28 27}
+
+[Info  - 1:12:41 PM] 2021/12/29 13:12:41 background imports cache refresh starting
+
+[Info  - 1:12:41 PM] 2021/12/29 13:12:41 background refresh finished after 45.635383ms
+
+[Error - 1:13:08 PM] 2021/12/29 13:13:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:30:9: expected switch expression, found simple statement (missing parentheses around composite literal?) (and 6 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:10 PM] 2021/12/29 13:13:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:3: expected '}', found ca (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:11 PM] 2021/12/29 13:13:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:10: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:13 PM] 2021/12/29 13:13:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:18 PM] 2021/12/29 13:13:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:19 PM] 2021/12/29 13:13:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:20 PM] 2021/12/29 13:13:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:20 PM] 2021/12/29 13:13:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:21 PM] 2021/12/29 13:13:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:22 PM] 2021/12/29 13:13:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:22 PM] 2021/12/29 13:13:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:22 PM] 2021/12/29 13:13:22 no signature help: cannot find an enclosing function
+	position={74 36}
+
+[Error - 1:13:22 PM] 2021/12/29 13:13:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:23 PM] 2021/12/29 13:13:23 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:24 PM] 2021/12/29 13:13:24 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:25 PM] 2021/12/29 13:13:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:26 PM] 2021/12/29 13:13:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:26 PM] 2021/12/29 13:13:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:27 PM] 2021/12/29 13:13:27 no signature help: cannot find an enclosing function
+	position={74 42}
+
+[Error - 1:13:27 PM] 2021/12/29 13:13:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:27 PM] 2021/12/29 13:13:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:13:28 PM] 2021/12/29 13:13:28 background imports cache refresh starting
+
+[Info  - 1:13:28 PM] 2021/12/29 13:13:28 background refresh finished after 41.742523ms
+
+[Error - 1:13:29 PM] 2021/12/29 13:13:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:30 PM] 2021/12/29 13:13:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:30 PM] 2021/12/29 13:13:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:31 PM] 2021/12/29 13:13:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:31 PM] 2021/12/29 13:13:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:32 PM] 2021/12/29 13:13:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:32 PM] 2021/12/29 13:13:32 no signature help: cannot find an enclosing function
+	position={74 54}
+
+[Error - 1:13:32 PM] 2021/12/29 13:13:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:33 PM] 2021/12/29 13:13:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:34 PM] 2021/12/29 13:13:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:34 PM] 2021/12/29 13:13:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:35 PM] 2021/12/29 13:13:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:36 PM] 2021/12/29 13:13:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:36 PM] 2021/12/29 13:13:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:31:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:43 PM] 2021/12/29 13:13:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:8:7: expected 'IDENT', found '{' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:45 PM] 2021/12/29 13:13:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:8:7: expected 'IDENT', found ')' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:45 PM] 2021/12/29 13:13:45 no signature help: cannot find an enclosing function
+	position={7 7}
+
+[Error - 1:13:45 PM] 2021/12/29 13:13:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:33:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:47 PM] 2021/12/29 13:13:47 no completions found: this is a definition of const C invalid type
+	position={8 2}
+
+[Error - 1:13:47 PM] 2021/12/29 13:13:47 no completions found: this is a definition of const COMM invalid type
+	position={8 5}
+
+[Error - 1:13:48 PM] 2021/12/29 13:13:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:9:2: missing constant value (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:48 PM] 2021/12/29 13:13:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:9:2: missing constant value (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:50 PM] 2021/12/29 13:13:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:50 PM] 2021/12/29 13:13:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:52 PM] 2021/12/29 13:13:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:52 PM] 2021/12/29 13:13:52 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:53 PM] 2021/12/29 13:13:53 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:54 PM] 2021/12/29 13:13:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:54 PM] 2021/12/29 13:13:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:13:55 PM] 2021/12/29 13:13:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:35:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:13:59 PM] 2021/12/29 13:13:59 background imports cache refresh starting
+
+[Info  - 1:13:59 PM] 2021/12/29 13:13:59 background refresh finished after 34.815433ms
+
+[Error - 1:14:00 PM] 2021/12/29 13:14:00 no completions found: this is a definition of const D untyped string
+	position={9 2}
+
+[Error - 1:14:00 PM] 2021/12/29 13:14:00 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:01 PM] 2021/12/29 13:14:01 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:01 PM] 2021/12/29 13:14:01 no completions found: this is a definition of const DAT untyped string
+	position={9 4}
+
+[Error - 1:14:01 PM] 2021/12/29 13:14:01 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:02 PM] 2021/12/29 13:14:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:03 PM] 2021/12/29 13:14:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:04 PM] 2021/12/29 13:14:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:05 PM] 2021/12/29 13:14:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:36:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:06 PM] 2021/12/29 13:14:06 no completions found: this is a definition of const H untyped string
+	position={10 2}
+
+[Error - 1:14:07 PM] 2021/12/29 13:14:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:07 PM] 2021/12/29 13:14:07 no completions found: this is a definition of const HOUR untyped string
+	position={10 5}
+
+[Error - 1:14:07 PM] 2021/12/29 13:14:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:08 PM] 2021/12/29 13:14:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:08 PM] 2021/12/29 13:14:08 no completions found: this is a definition of const HOURS untyped string
+	position={10 6}
+
+[Error - 1:14:09 PM] 2021/12/29 13:14:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:09 PM] 2021/12/29 13:14:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:10 PM] 2021/12/29 13:14:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:11 PM] 2021/12/29 13:14:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:12 PM] 2021/12/29 13:14:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:13 PM] 2021/12/29 13:14:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:14 PM] 2021/12/29 13:14:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:14 PM] 2021/12/29 13:14:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:16 PM] 2021/12/29 13:14:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:17 PM] 2021/12/29 13:14:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:18 PM] 2021/12/29 13:14:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:29 PM] 2021/12/29 13:14:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:30 PM] 2021/12/29 13:14:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:30 PM] 2021/12/29 13:14:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:30 PM] 2021/12/29 13:14:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:31 PM] 2021/12/29 13:14:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:32 PM] 2021/12/29 13:14:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:34 PM] 2021/12/29 13:14:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:37:14: expected ':', found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:50 PM] 2021/12/29 13:14:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:20:18: expected ';', found ']' (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:51 PM] 2021/12/29 13:14:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:20:18: expected ';', found ']' (and 5 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:14:51 PM] 2021/12/29 13:14:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:20:18: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:15:10 PM] 2021/12/29 13:15:10 no signature help: cannot find an enclosing function
+	position={67 2}
+
+[Error - 1:15:10 PM] 2021/12/29 13:15:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:2: expected statement, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:15:11 PM] 2021/12/29 13:15:11 no signature help: cannot find an enclosing function
+	position={67 2}
+
+[Error - 1:15:11 PM] 2021/12/29 13:15:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:2: expected statement, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:15:13 PM] 2021/12/29 13:15:13 background imports cache refresh starting
+
+[Info  - 1:15:13 PM] 2021/12/29 13:15:13 background refresh finished after 29.436288ms
+
+[Error - 1:15:21 PM] 2021/12/29 13:15:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:11: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:15:21 PM] 2021/12/29 13:15:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:11: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:15:27 PM] 2021/12/29 13:15:27 no signature help: cannot find an enclosing function
+	position={67 35}
+
+[Error - 1:15:33 PM] 2021/12/29 13:15:33 no signature help: cannot find an enclosing function
+	position={67 36}
+
+[Info  - 1:15:44 PM] 2021/12/29 13:15:44 background imports cache refresh starting
+
+[Info  - 1:15:44 PM] 2021/12/29 13:15:44 background refresh finished after 84.983992ms
+
+[Error - 1:15:53 PM] 2021/12/29 13:15:53 no signature help: cannot find an enclosing function
+	position={69 31}
+
+[Error - 1:15:59 PM] 2021/12/29 13:15:59 no signature help: cannot find an enclosing function
+	position={70 0}
+
+[Error - 1:16:13 PM] 2021/12/29 13:16:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:106:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:14 PM] 2021/12/29 13:16:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:106:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:14 PM] 2021/12/29 13:16:14 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:16:14 PM] 2021/12/29 13:16:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:106:13: expected operand, found ']' (and 11 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:14 PM] 2021/12/29 13:16:14 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/view.go
+
+[Info  - 1:16:14 PM] 2021/12/29 13:16:14 background imports cache refresh starting
+
+[Info  - 1:16:14 PM] 2021/12/29 13:16:14 background refresh finished after 62.9177ms
+
+[Error - 1:16:15 PM] 2021/12/29 13:16:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:106:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:18 PM] 2021/12/29 13:16:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:108:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:19 PM] 2021/12/29 13:16:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:108:12: expected operand, found ']' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:16:19 PM] 2021/12/29 13:16:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:108:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 1:16:45 PM] 2021/12/29 13:16:45 background imports cache refresh starting
+
+[Info  - 1:16:45 PM] 2021/12/29 13:16:45 background refresh finished after 60.996715ms
+
+[Error - 1:17:41 PM] 2021/12/29 13:17:41 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:75:12: expected operand, found ']'
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 1:18:05 PM] 2021/12/29 13:18:05 background imports cache refresh starting
+
+[Info  - 1:18:05 PM] 2021/12/29 13:18:05 background refresh finished after 20.562486ms
+
+[Error - 1:20:50 PM] 2021/12/29 13:20:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:76:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 1:21:15 PM] 2021/12/29 13:21:15 background imports cache refresh starting
+
+[Info  - 1:21:15 PM] 2021/12/29 13:21:15 background refresh finished after 32.141617ms
+
+[Error - 1:21:20 PM] 2021/12/29 13:21:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:76:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:21:21 PM] 2021/12/29 13:21:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:76:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:21:22 PM] 2021/12/29 13:21:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:76:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:21:23 PM] 2021/12/29 13:21:23 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:76:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 1:21:24 PM] 2021/12/29 13:21:24 go/packages.Load
+	snapshot=1160
+	directory=/home/aosderzhikov/go/src/regent
+	query=[file=/home/aosderzhikov/go/src/regent/cli/update.go]
+	packages=1
+
+[Info  - 1:21:24 PM] 2021/12/29 13:21:24 go/packages.Load
+	snapshot=1160
+	package="github.com/alexey-sderzhikov/regent/cli"
+	files=[/home/aosderzhikov/go/src/regent/cli/cli.go /home/aosderzhikov/go/src/regent/cli/model.go /home/aosderzhikov/go/src/regent/cli/update.go /home/aosderzhikov/go/src/regent/cli/view.go]
+
+[Error - 1:21:24 PM] 2021/12/29 13:21:24 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:77:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 1:21:24 PM] 2021/12/29 13:21:24 go/packages.Load
+	snapshot=1160
+	directory=/home/aosderzhikov/go/src/regent
+	query=[github.com/alexey-sderzhikov/regent]
+	packages=1
+
+[Info  - 1:21:24 PM] 2021/12/29 13:21:24 go/packages.Load
+	snapshot=1160
+	package="github.com/alexey-sderzhikov/regent"
+	files=[/home/aosderzhikov/go/src/regent/main.go]
+
+[Error - 1:21:25 PM] 2021/12/29 13:21:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:77:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:21:27 PM] 2021/12/29 13:21:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:77:12: expected '==', found '='
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:21:28 PM] Request textDocument/formatting failed.
+  Message: 77:12: expected '==', found '='
+  Code: 0 
+[Info  - 1:21:47 PM] 2021/12/29 13:21:47 background imports cache refresh starting
+
+[Info  - 1:21:47 PM] 2021/12/29 13:21:47 background refresh finished after 42.905939ms
+
+[Info  - 1:22:26 PM] 2021/12/29 13:22:26 background imports cache refresh starting
+
+[Info  - 1:22:26 PM] 2021/12/29 13:22:26 background refresh finished after 26.337658ms
+
+[Error - 1:22:48 PM] 2021/12/29 13:22:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:20: expected type, found ')'
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:22:48 PM] 2021/12/29 13:22:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:20: expected type, found ')'
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:22:59 PM] 2021/12/29 13:22:59 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:20: expected type, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Error - 1:23:00 PM] 2021/12/29 13:23:00 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/model.go:68:20: expected type, found ','
+	file="/home/aosderzhikov/go/src/regent/cli/model.go"
+
+[Info  - 1:23:09 PM] 2021/12/29 13:23:09 background imports cache refresh starting
+
+[Info  - 1:23:09 PM] 2021/12/29 13:23:09 background refresh finished after 31.11849ms
+
+[Info  - 1:23:39 PM] 2021/12/29 13:23:39 background imports cache refresh starting
+
+[Info  - 1:23:39 PM] 2021/12/29 13:23:39 background refresh finished after 49.736725ms
+
+[Error - 1:23:40 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 1:24:10 PM] 2021/12/29 13:24:10 background imports cache refresh starting
+
+[Info  - 1:24:10 PM] 2021/12/29 13:24:10 background refresh finished after 22.061242ms
+
+[Info  - 1:24:40 PM] 2021/12/29 13:24:40 background imports cache refresh starting
+
+[Info  - 1:24:40 PM] 2021/12/29 13:24:40 background refresh finished after 20.755127ms
+
+[Info  - 1:27:15 PM] 2021/12/29 13:27:15 background imports cache refresh starting
+
+[Info  - 1:27:15 PM] 2021/12/29 13:27:15 background refresh finished after 27.290138ms
+
+[Info  - 1:28:33 PM] 2021/12/29 13:28:33 background imports cache refresh starting
+
+[Info  - 1:28:33 PM] 2021/12/29 13:28:33 background refresh finished after 29.297851ms
+
+[Error - 1:28:42 PM] 2021/12/29 13:28:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:48:1: expected declaration, found '.' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:28:43 PM] 2021/12/29 13:28:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:48:1: expected declaration, found юю (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:29:04 PM] 2021/12/29 13:29:04 no signature help: cannot find an enclosing function
+	position={47 37}
+
+[Error - 1:29:06 PM] 2021/12/29 13:29:06 no signature help: cannot find an enclosing function
+	position={47 42}
+
+[Info  - 1:29:16 PM] 2021/12/29 13:29:16 background imports cache refresh starting
+
+[Info  - 1:29:16 PM] 2021/12/29 13:29:16 background refresh finished after 31.332405ms
+
+[Error - 1:29:22 PM] 2021/12/29 13:29:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:66:1: expected declaration, found '/' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:29:47 PM] 2021/12/29 13:29:47 background imports cache refresh starting
+
+[Info  - 1:29:47 PM] 2021/12/29 13:29:47 background refresh finished after 28.308955ms
+
+[Info  - 1:30:17 PM] 2021/12/29 13:30:17 background imports cache refresh starting
+
+[Info  - 1:30:17 PM] 2021/12/29 13:30:17 background refresh finished after 27.645736ms
+
+[Info  - 1:30:47 PM] 2021/12/29 13:30:47 background imports cache refresh starting
+
+[Info  - 1:30:47 PM] 2021/12/29 13:30:47 background refresh finished after 19.291485ms
+
+[Info  - 1:31:18 PM] 2021/12/29 13:31:18 background imports cache refresh starting
+
+[Info  - 1:31:18 PM] 2021/12/29 13:31:18 background refresh finished after 29.146391ms
+
+[Info  - 1:33:48 PM] 2021/12/29 13:33:48 background imports cache refresh starting
+
+[Info  - 1:33:48 PM] 2021/12/29 13:33:48 background refresh finished after 21.504753ms
+
+[Info  - 1:34:39 PM] 2021/12/29 13:34:39 background imports cache refresh starting
+
+[Info  - 1:34:39 PM] 2021/12/29 13:34:39 background refresh finished after 26.507064ms
+
+[Info  - 1:36:01 PM] 2021/12/29 13:36:01 background imports cache refresh starting
+
+[Info  - 1:36:01 PM] 2021/12/29 13:36:01 background refresh finished after 21.440416ms
+
+[Info  - 1:36:34 PM] 2021/12/29 13:36:34 background imports cache refresh starting
+
+[Info  - 1:36:34 PM] 2021/12/29 13:36:34 background refresh finished after 32.644685ms
+
+[Info  - 1:37:17 PM] 2021/12/29 13:37:17 background imports cache refresh starting
+
+[Info  - 1:37:17 PM] 2021/12/29 13:37:17 background refresh finished after 30.013369ms
+
+[Error - 1:37:26 PM] 2021/12/29 13:37:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:75:9: expected ';', found resp
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:37:47 PM] 2021/12/29 13:37:47 no signature help: cannot find an enclosing function
+	position={79 16}
+
+[Error - 1:37:53 PM] 2021/12/29 13:37:53 no completions found: this is a definition of var s []byte
+	position={66 49}
+
+[Error - 1:37:53 PM] 2021/12/29 13:37:53 no completions found: this is a definition of var stat []byte
+	position={66 52}
+
+[Error - 1:37:54 PM] 2021/12/29 13:37:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:37:54 PM] 2021/12/29 13:37:54 background imports cache refresh starting
+
+[Info  - 1:37:54 PM] 2021/12/29 13:37:54 background refresh finished after 25.401725ms
+
+[Error - 1:37:55 PM] 2021/12/29 13:37:55 no completions found: this is a definition of var sta []byte
+	position={66 51}
+
+[Error - 1:37:55 PM] 2021/12/29 13:37:55 no completions found: this is a definition of var st []byte
+	position={66 50}
+
+[Error - 1:37:55 PM] 2021/12/29 13:37:55 no completions found: this is a definition of var s []byte
+	position={66 49}
+
+[Error - 1:37:55 PM] 2021/12/29 13:37:55 no completions found: this is a definition of var s []byte
+	position={66 49}
+
+[Error - 1:37:56 PM] 2021/12/29 13:37:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:37:56 PM] 2021/12/29 13:37:56 no completions found: this is a definition of var stinr []byte
+	position={66 53}
+
+[Error - 1:37:56 PM] 2021/12/29 13:37:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:37:57 PM] 2021/12/29 13:37:57 no completions found: this is a definition of var str []byte
+	position={66 51}
+
+[Error - 1:37:58 PM] 2021/12/29 13:37:58 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:37:58 PM] 2021/12/29 13:37:58 no signature help: cannot find an enclosing function
+	position={66 55}
+
+[Error - 1:37:58 PM] 2021/12/29 13:37:58 no signature help: cannot find an enclosing function
+	position={66 56}
+
+[Error - 1:38:03 PM] 2021/12/29 13:38:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:70:10: rune literal not terminated
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:04 PM] 2021/12/29 13:38:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:70:10: string literal not terminated
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:05 PM] 2021/12/29 13:38:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:70:12: expected ';', found nil (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:05 PM] 2021/12/29 13:38:05 no signature help: cannot find an enclosing function
+	position={69 12}
+
+[Error - 1:38:10 PM] 2021/12/29 13:38:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:76:12: expected ';', found nil (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:11 PM] 2021/12/29 13:38:11 no signature help: cannot find an enclosing function
+	position={75 12}
+
+[Error - 1:38:14 PM] 2021/12/29 13:38:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:70:10: rune literal not terminated
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:16 PM] 2021/12/29 13:38:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:17 PM] 2021/12/29 13:38:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:17 PM] 2021/12/29 13:38:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:17 PM] 2021/12/29 13:38:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:17 PM] 2021/12/29 13:38:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:20 PM] 2021/12/29 13:38:20 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:67:49: mixed named and unnamed parameters
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:38:28 PM] 2021/12/29 13:38:28 background imports cache refresh starting
+
+[Info  - 1:38:28 PM] 2021/12/29 13:38:28 background refresh finished after 19.532577ms
+
+[Error - 1:38:29 PM] 2021/12/29 13:38:29 no completions found: this is a definition of type r invalid type
+	position={21 6}
+
+[Error - 1:38:29 PM] 2021/12/29 13:38:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:8: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:29 PM] 2021/12/29 13:38:29 no completions found: this is a definition of type res invalid type
+	position={21 8}
+
+[Error - 1:38:30 PM] 2021/12/29 13:38:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:10: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:30 PM] 2021/12/29 13:38:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:12: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:31 PM] 2021/12/29 13:38:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:10: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:32 PM] 2021/12/29 13:38:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:11: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:32 PM] 2021/12/29 13:38:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:10: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:35 PM] 2021/12/29 13:38:35 no completions found: this is a definition of type respo invalid type
+	position={21 10}
+
+[Error - 1:38:36 PM] 2021/12/29 13:38:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:13: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:38:40 PM] 2021/12/29 13:38:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:22:10: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:39:02 PM] 2021/12/29 13:39:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:23:17: expected type, found newline
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:39:07 PM] 2021/12/29 13:39:07 background imports cache refresh starting
+
+[Info  - 1:39:07 PM] 2021/12/29 13:39:07 background refresh finished after 15.42927ms
+
+[Error - 1:39:23 PM] 2021/12/29 13:39:23 no completions found: this is a definition of type respS struct{ByteListBody []byte; Status string}
+	position={21 10}
+
+[Error - 1:39:24 PM] 2021/12/29 13:39:24 no completions found: this is a definition of type respStu struct{ByteListBody []byte; Status string}
+	position={21 12}
+
+[Error - 1:39:24 PM] 2021/12/29 13:39:24 no completions found: this is a definition of type respStur struct{ByteListBody []byte; Status string}
+	position={21 13}
+
+[Error - 1:39:25 PM] 2021/12/29 13:39:25 no completions found: this is a definition of type respStr struct{ByteListBody []byte; Status string}
+	position={21 12}
+
+[Error - 1:39:25 PM] 2021/12/29 13:39:25 no completions found: this is a definition of type respStru struct{ByteListBody []byte; Status string}
+	position={21 13}
+
+[Error - 1:39:25 PM] 2021/12/29 13:39:25 no completions found: this is a definition of type respStruc struct{ByteListBody []byte; Status string}
+	position={21 14}
+
+[Error - 1:39:25 PM] 2021/12/29 13:39:25 no completions found: this is a definition of type respStruct struct{ByteListBody []byte; Status string}
+	position={21 15}
+
+[Info  - 1:39:38 PM] 2021/12/29 13:39:38 background imports cache refresh starting
+
+[Info  - 1:39:38 PM] 2021/12/29 13:39:38 background refresh finished after 37.636501ms
+
+[Error - 1:40:03 PM] 2021/12/29 13:40:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:04 PM] 2021/12/29 13:40:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:05 PM] 2021/12/29 13:40:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:06 PM] 2021/12/29 13:40:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:08 PM] 2021/12/29 13:40:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:09 PM] 2021/12/29 13:40:09 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:10 PM] 2021/12/29 13:40:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:10 PM] 2021/12/29 13:40:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:12 PM] 2021/12/29 13:40:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:13 PM] 2021/12/29 13:40:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:15 PM] 2021/12/29 13:40:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:40:18 PM] 2021/12/29 13:40:18 background imports cache refresh starting
+
+[Info  - 1:40:18 PM] 2021/12/29 13:40:18 background refresh finished after 28.687445ms
+
+[Error - 1:40:19 PM] 2021/12/29 13:40:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:36 PM] 2021/12/29 13:40:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:37 PM] 2021/12/29 13:40:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:38 PM] 2021/12/29 13:40:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:39 PM] 2021/12/29 13:40:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:40:51 PM] 2021/12/29 13:40:51 background imports cache refresh starting
+
+[Info  - 1:40:51 PM] 2021/12/29 13:40:51 background refresh finished after 30.087892ms
+
+[Error - 1:40:53 PM] 2021/12/29 13:40:53 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:40:54 PM] 2021/12/29 13:40:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:00 PM] 2021/12/29 13:41:00 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:01 PM] 2021/12/29 13:41:01 no completions found: this is a definition of var respH *net/http.Response
+	position={72 6}
+
+[Error - 1:41:01 PM] 2021/12/29 13:41:01 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:01 PM] 2021/12/29 13:41:01 no completions found: this is a definition of var respHt *net/http.Response
+	position={72 7}
+
+[Error - 1:41:01 PM] 2021/12/29 13:41:01 no completions found: this is a definition of var respHtt *net/http.Response
+	position={72 8}
+
+[Error - 1:41:02 PM] 2021/12/29 13:41:02 no completions found: this is a definition of var respHttp *net/http.Response
+	position={72 9}
+
+[Error - 1:41:02 PM] 2021/12/29 13:41:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:02 PM] 2021/12/29 13:41:02 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:03 PM] 2021/12/29 13:41:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:04 PM] 2021/12/29 13:41:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:04 PM] 2021/12/29 13:41:04 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:05 PM] 2021/12/29 13:41:05 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:08 PM] 2021/12/29 13:41:08 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:41:22 PM] 2021/12/29 13:41:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:41:23 PM] 2021/12/29 13:41:23 background imports cache refresh starting
+
+[Info  - 1:41:23 PM] 2021/12/29 13:41:23 background refresh finished after 26.160114ms
+
+[Error - 1:41:24 PM] 2021/12/29 13:41:24 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:10 PM] 2021/12/29 13:42:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:11 PM] 2021/12/29 13:42:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:12 PM] 2021/12/29 13:42:12 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:13 PM] 2021/12/29 13:42:13 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:14 PM] 2021/12/29 13:42:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:14 PM] 2021/12/29 13:42:14 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:15 PM] 2021/12/29 13:42:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:15 PM] 2021/12/29 13:42:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:16 PM] 2021/12/29 13:42:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:16 PM] 2021/12/29 13:42:16 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:19 PM] 2021/12/29 13:42:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:79:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:21 PM] 2021/12/29 13:42:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:22: expected ';', found ':='
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:22 PM] 2021/12/29 13:42:22 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:24 PM] 2021/12/29 13:42:24 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:25 PM] 2021/12/29 13:42:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:25 PM] 2021/12/29 13:42:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:26 PM] 2021/12/29 13:42:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:26 PM] 2021/12/29 13:42:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:27 PM] 2021/12/29 13:42:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:29 PM] 2021/12/29 13:42:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:30 PM] 2021/12/29 13:42:30 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:31 PM] 2021/12/29 13:42:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:31 PM] 2021/12/29 13:42:31 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:32 PM] 2021/12/29 13:42:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:72:50: expected operand, found ',' (and 12 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:33 PM] 2021/12/29 13:42:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:33 PM] 2021/12/29 13:42:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:33 PM] 2021/12/29 13:42:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:34 PM] 2021/12/29 13:42:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:35 PM] 2021/12/29 13:42:35 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:36 PM] 2021/12/29 13:42:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:37 PM] 2021/12/29 13:42:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:37 PM] 2021/12/29 13:42:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:38 PM] 2021/12/29 13:42:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:39 PM] 2021/12/29 13:42:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:39 PM] 2021/12/29 13:42:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:40 PM] 2021/12/29 13:42:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:42 PM] 2021/12/29 13:42:42 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:43 PM] 2021/12/29 13:42:43 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:43 PM] Request textDocument/formatting failed.
+  Message: 80:2: expected identifier on left side of :=
+  Code: 0 
+[Info  - 1:42:43 PM] 2021/12/29 13:42:43 background imports cache refresh starting
+
+[Info  - 1:42:43 PM] 2021/12/29 13:42:43 background refresh finished after 47.384199ms
+
+[Error - 1:42:44 PM] 2021/12/29 13:42:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:44 PM] 2021/12/29 13:42:44 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:45 PM] 2021/12/29 13:42:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:46 PM] 2021/12/29 13:42:46 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:42:50 PM] 2021/12/29 13:42:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:80:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:15 PM] 2021/12/29 13:43:15 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:86:13: expected ';', found nil
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:17 PM] 2021/12/29 13:43:17 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:86:14: expected ';', found nil
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:19 PM] 2021/12/29 13:43:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:86:14: expected ';', found nil
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:20 PM] 2021/12/29 13:43:20 no signature help: cannot find an enclosing function
+	position={85 14}
+
+[Info  - 1:43:21 PM] 2021/12/29 13:43:21 background imports cache refresh starting
+
+[Info  - 1:43:21 PM] 2021/12/29 13:43:21 background refresh finished after 22.990764ms
+
+[Error - 1:43:21 PM] 2021/12/29 13:43:21 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:86:14: expected ';', found nil
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:21 PM] 2021/12/29 13:43:21 no signature help: cannot find an enclosing function
+	position={85 13}
+
+[Error - 1:43:24 PM] 2021/12/29 13:43:24 no completions found: this is a definition of var re string
+	position={83 3}
+
+[Error - 1:43:24 PM] 2021/12/29 13:43:24 no completions found: this is a definition of var res string
+	position={83 4}
+
+[Error - 1:43:25 PM] 2021/12/29 13:43:25 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:26 PM] 2021/12/29 13:43:26 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:27 PM] 2021/12/29 13:43:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:27 PM] 2021/12/29 13:43:27 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:28 PM] 2021/12/29 13:43:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:28 PM] 2021/12/29 13:43:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:29 PM] 2021/12/29 13:43:29 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:32 PM] 2021/12/29 13:43:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:33 PM] 2021/12/29 13:43:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:33 PM] 2021/12/29 13:43:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:34 PM] 2021/12/29 13:43:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:34 PM] 2021/12/29 13:43:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:34 PM] Request textDocument/formatting failed.
+  Message: 84:2: expected identifier on left side of :=
+  Code: 0 
+[Error - 1:43:38 PM] 2021/12/29 13:43:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:39 PM] 2021/12/29 13:43:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:84:2: expected identifier on left side of :=
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:43:51 PM] 2021/12/29 13:43:51 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:75:13: expected ';', found 'ILLEGAL' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Info  - 1:43:52 PM] 2021/12/29 13:43:52 background imports cache refresh starting
+
+[Info  - 1:43:52 PM] 2021/12/29 13:43:52 background refresh finished after 24.329098ms
+
+[Error - 1:44:07 PM] 2021/12/29 13:44:07 no completions found: this is a definition of var re respStruct
+	position={94 3}
+
+[Error - 1:44:07 PM] 2021/12/29 13:44:07 no completions found: this is a definition of var res respStruct
+	position={94 4}
+
+[Info  - 1:44:22 PM] 2021/12/29 13:44:22 background imports cache refresh starting
+
+[Info  - 1:44:22 PM] 2021/12/29 13:44:22 background refresh finished after 22.38945ms
+
+[Error - 1:44:50 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 1:44:52 PM] 2021/12/29 13:44:52 background imports cache refresh starting
+
+[Info  - 1:44:52 PM] 2021/12/29 13:44:52 background refresh finished after 20.069291ms
+
+[Error - 1:44:54 PM] 2021/12/29 13:44:54 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:110:1: expected declaration, found TODO (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:44:56 PM] 2021/12/29 13:44:56 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:110:1: expected declaration, found TODO (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:45:11 PM] 2021/12/29 13:45:11 no completions found: this is a definition of var re respStruct
+	position={121 3}
+
+[Error - 1:45:20 PM] 2021/12/29 13:45:20 no completions found: this is a definition of var re respStruct
+	position={121 3}
+
+[Error - 1:45:20 PM] 2021/12/29 13:45:20 no completions found: this is a definition of var res respStruct
+	position={121 4}
+
+[Error - 1:45:23 PM] Request textDocument/definition failed.
+  Message: no object found for ident byteList: no object found
+  Code: 0 
+[Info  - 1:45:27 PM] 2021/12/29 13:45:27 background imports cache refresh starting
+
+[Info  - 1:45:27 PM] 2021/12/29 13:45:27 background refresh finished after 15.634209ms
+
+[Info  - 1:45:59 PM] 2021/12/29 13:45:59 background imports cache refresh starting
+
+[Info  - 1:45:59 PM] 2021/12/29 13:45:59 background refresh finished after 18.923551ms
+
+[Info  - 1:46:34 PM] 2021/12/29 13:46:34 background imports cache refresh starting
+
+[Info  - 1:46:34 PM] 2021/12/29 13:46:34 background refresh finished after 26.588272ms
+
+[Error - 1:46:37 PM] 2021/12/29 13:46:37 no signature help: cannot find an enclosing function
+	position={136 96}
+
+[Error - 1:46:37 PM] 2021/12/29 13:46:37 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:137:96: expected ';', found ',' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:38 PM] 2021/12/29 13:46:38 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:137:96: expected ';', found ',' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:38 PM] 2021/12/29 13:46:38 no signature help: cannot find an enclosing function
+	position={136 90}
+
+[Error - 1:46:39 PM] 2021/12/29 13:46:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:137:105: missing ',' in parameter list (and 20 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:39 PM] 2021/12/29 13:46:39 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:137:105: missing ',' in parameter list (and 20 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:40 PM] 2021/12/29 13:46:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:137:105: missing ',' in parameter list (and 20 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:50 PM] 2021/12/29 13:46:50 no signature help: cannot find an enclosing function
+	position={165 20}
+
+[Error - 1:46:50 PM] 2021/12/29 13:46:50 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:168:1: expected operand, found '}' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:55 PM] 2021/12/29 13:46:55 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:162:12: expected ';', found err (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:56 PM] 2021/12/29 13:46:56 no signature help: cannot find an enclosing function
+	position={161 13}
+
+[Error - 1:46:59 PM] 2021/12/29 13:46:59 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:157:10: string literal not terminated
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:46:59 PM] 2021/12/29 13:46:59 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:157:12: expected ';', found err (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:47:00 PM] 2021/12/29 13:47:00 no signature help: cannot find an enclosing function
+	position={156 12}
+
+[Error - 1:47:03 PM] 2021/12/29 13:47:03 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/restapi/restapi.go:150:12: expected ';', found err (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/restapi/restapi.go"
+
+[Error - 1:47:03 PM] 2021/12/29 13:47:03 no signature help: cannot find an enclosing function
+	position={149 12}
+
+[Info  - 1:47:05 PM] 2021/12/29 13:47:05 background imports cache refresh starting
+
+[Info  - 1:47:05 PM] 2021/12/29 13:47:05 background refresh finished after 46.246266ms
+
+[Error - 1:47:41 PM] 2021/12/29 13:47:41 no completions found: this is a definition of var re respStruct
+	position={175 3}
+
+[Info  - 1:47:59 PM] 2021/12/29 13:47:59 background imports cache refresh starting
+
+[Info  - 1:47:59 PM] 2021/12/29 13:47:59 background refresh finished after 27.365047ms
+
+[Error - 1:48:04 PM] 2021/12/29 13:48:04 no signature help: cannot find an enclosing function
+	position={109 9}
+
+[Error - 1:48:18 PM] 2021/12/29 13:48:18 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:48:18 PM] 2021/12/29 13:48:18 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:48:18 PM] 2021/12/29 13:48:18 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 1:48:20 PM] 2021/12/29 13:48:20 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Info  - 1:48:33 PM] 2021/12/29 13:48:33 background imports cache refresh starting
+
+[Info  - 1:48:33 PM] 2021/12/29 13:48:33 background refresh finished after 26.020996ms
+
+[Info  - 1:49:06 PM] 2021/12/29 13:49:06 background imports cache refresh starting
+
+[Info  - 1:49:06 PM] 2021/12/29 13:49:06 background refresh finished after 27.294277ms
+
+[Error - 1:49:28 PM] 2021/12/29 13:49:28 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:37:5: expected ';', found m
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:49:33 PM] 2021/12/29 13:49:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:39:5: expected ';', found m
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:49:36 PM] 2021/12/29 13:49:36 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:41:5: expected ';', found m
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:49:40 PM] 2021/12/29 13:49:40 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:43:5: expected ';', found m (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 1:49:42 PM] 2021/12/29 13:49:42 background imports cache refresh starting
+
+[Info  - 1:49:42 PM] 2021/12/29 13:49:42 background refresh finished after 26.144651ms
+
+[Error - 1:50:11 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Info  - 1:50:14 PM] 2021/12/29 13:50:14 background imports cache refresh starting
+
+[Info  - 1:50:14 PM] 2021/12/29 13:50:14 background refresh finished after 29.484404ms
+
+[Error - 1:50:45 PM] Request textDocument/definition failed.
+  Message: no identifier found
+  Code: 0 
+[Error - 1:50:45 PM] 2021/12/29 13:50:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:120:2: expected operand, found 'case' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:50:47 PM] 2021/12/29 13:50:47 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:50:47 PM] 2021/12/29 13:50:47 DocumentSymbols failed: invalid pos
+	URI=file:///home/aosderzhikov/go/src/regent/cli/update.go
+
+[Error - 1:50:47 PM] 2021/12/29 13:50:47 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:50:48 PM] 2021/12/29 13:50:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:120:2: expected operand, found 'case' (and 29 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:51:06 PM] 2021/12/29 13:51:06 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:51:06 PM] 2021/12/29 13:51:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:120:2: expected operand, found 'case' (and 29 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Error - 1:51:06 PM] 2021/12/29 13:51:06 unable to compute positions for type errors: no parsed file for  in github.com/alexey-sderzhikov/regent/cli
+	package="github.com/alexey-sderzhikov/regent/cli"
+
+[Error - 1:51:07 PM] 2021/12/29 13:51:07 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/update.go:120:2: expected operand, found 'case' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/update.go"
+
+[Info  - 1:51:14 PM] 2021/12/29 13:51:14 background imports cache refresh starting
+
+[Info  - 1:51:14 PM] 2021/12/29 13:51:14 background refresh finished after 27.000691ms
+
+[Error - 1:51:18 PM] 2021/12/29 13:51:18 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:37:5: expected ';', found m
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 1:51:19 PM] 2021/12/29 13:51:19 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:35:2: expected ';', found 'switch' (and 1 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 1:51:48 PM] 2021/12/29 13:51:48 background imports cache refresh starting
+
+[Info  - 1:51:48 PM] 2021/12/29 13:51:48 background refresh finished after 26.081694ms
+
+[Error - 2:14:10 PM] 2021/12/29 14:14:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:114:14: expected ';', found 'ILLEGAL' (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:10 PM] 2021/12/29 14:14:10 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:114:14: expected ';', found 'ILLEGAL' (and 4 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:11 PM] 2021/12/29 14:14:11 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:114:14: expected ';', found '!' (and 3 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 2:14:26 PM] 2021/12/29 14:14:26 background imports cache refresh starting
+
+[Info  - 2:14:26 PM] 2021/12/29 14:14:26 background refresh finished after 22.052409ms
+
+[Error - 2:14:32 PM] 2021/12/29 14:14:32 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:116:2: expected operand, found '}' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:33 PM] 2021/12/29 14:14:33 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:116:2: expected operand, found '}' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:34 PM] 2021/12/29 14:14:34 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:116:2: expected operand, found '}' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:45 PM] 2021/12/29 14:14:45 no completions found: this is a definition of var s invalid type
+	position={29 5}
+
+[Error - 2:14:45 PM] 2021/12/29 14:14:45 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:45 PM] 2021/12/29 14:14:45 no completions found: this is a definition of var stat invalid type
+	position={29 8}
+
+[Error - 2:14:46 PM] 2021/12/29 14:14:46 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:46 PM] 2021/12/29 14:14:46 no completions found: this is a definition of var statusSt invalid type
+	position={29 12}
+
+[Error - 2:14:47 PM] 2021/12/29 14:14:47 no completions found: this is a definition of var statusSta invalid type
+	position={29 13}
+
+[Error - 2:14:47 PM] 2021/12/29 14:14:47 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:47 PM] 2021/12/29 14:14:47 no completions found: this is a definition of var statusSte invalid type
+	position={29 13}
+
+[Error - 2:14:47 PM] 2021/12/29 14:14:47 no completions found: this is a definition of var statusStey invalid type
+	position={29 14}
+
+[Error - 2:14:47 PM] 2021/12/29 14:14:47 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:48 PM] 2021/12/29 14:14:48 no completions found: this is a definition of var statusStt invalid type
+	position={29 13}
+
+[Error - 2:14:48 PM] 2021/12/29 14:14:48 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:48 PM] 2021/12/29 14:14:48 no completions found: this is a definition of var statusSttl invalid type
+	position={29 14}
+
+[Error - 2:14:49 PM] 2021/12/29 14:14:49 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:30:5: missing variable type or initialization
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Error - 2:14:49 PM] 2021/12/29 14:14:49 no completions found: this is a definition of var statusSty invalid type
+	position={29 13}
+
+[Error - 2:14:49 PM] 2021/12/29 14:14:49 no completions found: this is a definition of var statusStyl invalid type
+	position={29 14}
+
+[Error - 2:14:49 PM] 2021/12/29 14:14:49 no completions found: this is a definition of var statusStyle invalid type
+	position={29 15}
+
+[Error - 2:14:53 PM] 2021/12/29 14:14:53 no signature help: cannot find an enclosing function
+	position={29 37}
+
+[Info  - 2:15:01 PM] 2021/12/29 14:15:01 background imports cache refresh starting
+
+[Info  - 2:15:01 PM] 2021/12/29 14:15:01 background refresh finished after 26.261912ms
+
+[Info  - 2:15:31 PM] 2021/12/29 14:15:31 background imports cache refresh starting
+
+[Info  - 2:15:31 PM] 2021/12/29 14:15:31 background refresh finished after 31.039812ms
+
+[Error - 2:16:06 PM] 2021/12/29 14:16:06 imports fixes: AllImportsFixes: /home/aosderzhikov/go/src/regent/cli/view.go:118:2: expected operand, found '}' (and 2 more errors)
+	file="/home/aosderzhikov/go/src/regent/cli/view.go"
+
+[Info  - 2:16:18 PM] 2021/12/29 14:16:18 background imports cache refresh starting
+
+[Info  - 2:16:18 PM] 2021/12/29 14:16:18 background refresh finished after 29.591502ms
+
+[Info  - 2:16:50 PM] 2021/12/29 14:16:50 background imports cache refresh starting
+
+[Info  - 2:16:50 PM] 2021/12/29 14:16:50 background refresh finished after 29.258075ms
+
+[Info  - 2:17:21 PM] 2021/12/29 14:17:21 background imports cache refresh starting
+
+[Info  - 2:17:21 PM] 2021/12/29 14:17:21 background refresh finished after 31.006605ms
+
+[Info  - 2:21:20 PM] 2021/12/29 14:21:20 background imports cache refresh starting
+
+[Info  - 2:21:20 PM] 2021/12/29 14:21:20 background refresh finished after 24.150582ms
+

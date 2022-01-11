@@ -1,0 +1,22 @@
+[2021-12-28 12:51:30.131] [main] [info] update#setState idle
+[2021-12-28 12:51:30.164] [main] [info] ExtensionHostStarterWorker created
+[2021-12-28 12:51:30.886] [main] [info] Starting extension host with pid 6913 (fork() took 13 ms).
+[2021-12-28 12:51:45.415] [main] [info] Extension host with pid 6913 exited with code: 0, signal: null.
+[2021-12-28 12:51:46.215] [main] [info] Starting extension host with pid 7201 (fork() took 12 ms).
+[2021-12-28 12:52:00.134] [main] [info] update#setState checking for updates
+[2021-12-28 12:52:00.200] [main] [info] update#setState idle
+[2021-12-28 13:52:00.202] [main] [info] update#setState checking for updates
+[2021-12-28 13:52:00.450] [main] [info] update#setState idle
+[2021-12-28 14:52:00.302] [main] [info] update#setState checking for updates
+[2021-12-28 14:52:00.625] [main] [info] update#setState idle
+[2021-12-28 15:52:00.406] [main] [info] update#setState checking for updates
+[2021-12-28 15:52:01.182] [main] [info] update#setState idle
+[2021-12-28 16:52:00.506] [main] [info] update#setState checking for updates
+[2021-12-28 16:52:00.994] [main] [info] update#setState idle
+[2021-12-28 17:52:00.514] [main] [info] update#setState checking for updates
+[2021-12-28 17:52:00.800] [main] [info] update#setState idle
+[2021-12-28 18:17:24.200] [main] [info] Starting extension host with pid 23111 (fork() took 16 ms).
+[2021-12-28 18:18:01.283] [main] [info] Extension host with pid 23111 exited with code: 0, signal: null.
+[2021-12-28 18:23:43.894] [main] [warning] Error attempting to set a password:  {}
+[2021-12-28 18:23:44.097] [main] [warning] Error attempting to set a password:  {}
+[2021-12-28 18:23:44.298] [main] [warning] Error attempting to set a password:  {}

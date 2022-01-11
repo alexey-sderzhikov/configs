@@ -1,0 +1,178 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/model.go:42:2 wrong number of return values (want 2, got 1) (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:57:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:96:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:181:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:57:3 expected identifier on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:57:3 expected identifier on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:101:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:186:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:101:14 cannot assign 2 values to 1 variables (compile)
+/home/aosderzhikov/go/src/regent/cli/update.go:186:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/update.go:186:15 cannot assign 2 values to 1 variables (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:31:5 var errorStyel is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:31:5 var errorStyel is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:163:21 cannot use m.err (variable of type error) as string value in argument to errorStyle.Render (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:165:4 expected ';', found '+=' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:32:5 var textStyle is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/view.go:32:5 var textStyle is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+

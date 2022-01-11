@@ -1,0 +1,47 @@
+[Info  - 11:17:09 AM] 2021/12/28 11:17:09 go env for /home/aosderzhikov/dwn
+(root /home/aosderzhikov/dwn)
+(go version go version go1.17.5 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+GOCACHE=/home/aosderzhikov/.cache/go-build
+GOPATH=/home/aosderzhikov/go
+GOPROXY=https://proxy.golang.org,direct
+GONOSUMDB=
+GOSUMDB=sum.golang.org
+GOFLAGS=
+GOMODCACHE=/home/aosderzhikov/go/pkg/mod
+GONOPROXY=
+GO111MODULE=
+GOMOD=/dev/null
+GOPRIVATE=
+GOROOT=/usr/local/go
+GOINSECURE=
+
+
+[Info  - 11:17:09 AM] 2021/12/28 11:17:09 go/packages.Load
+	snapshot=0
+	directory=/home/aosderzhikov/dwn
+	query=[./ builtin]
+	packages=2
+
+[Info  - 11:17:09 AM] 2021/12/28 11:17:09 falling back to safe trimming due to type errors: [/usr/local/go/src/runtime/vdso_linux.go:55:38: invalid operation: division by zero /usr/local/go/src/runtime/vdso_linux.go:56:38: invalid operation: division by zero] or still-missing identifiers: map[memRecordCycle:true pageBits:true]
+	package="runtime"
+
+[Info  - 11:17:09 AM] 2021/12/28 11:17:09 discovered missing identifiers: map[options:true]
+	package="vendor/golang.org/x/text/unicode/bidi"
+
+[Info  - 11:17:39 AM] 2021/12/28 11:17:39 background imports cache refresh starting
+
+[Info  - 11:17:39 AM] 2021/12/28 11:17:39 background refresh finished after 15.824559ms
+
+[Info  - 11:18:08 AM] 2021/12/28 11:18:08 go/packages.Load
+	snapshot=12
+	directory=/home/aosderzhikov/dwn
+	query=[file=/home/aosderzhikov/dwn/ctx.go]
+	packages=1
+
+[Info  - 11:18:08 AM] 2021/12/28 11:18:08 go/packages.Load
+	snapshot=12
+	package="command-line-arguments"
+	files=[/home/aosderzhikov/dwn/ctx.go]
+

@@ -1,0 +1,14 @@
+[2021-12-28 11:16:11.167] [exthost] [info] Extension host with pid 4298 started
+[2021-12-28 11:16:11.167] [exthost] [info] Skipping acquiring lock for /home/aosderzhikov/.config/Code/User/workspaceStorage/9ac011fcd18ddf6f573876d0e098a573.
+[2021-12-28 11:16:11.293] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-28 11:16:11.306] [exthost] [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go'
+[2021-12-28 11:16:11.404] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-28 11:16:11.408] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-28 11:16:11.594] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2021-12-28 11:16:11.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-12-28 11:16:11.723] [exthost] [info] Eager extensions activated
+[2021-12-28 11:16:11.790] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-28 11:16:11.798] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-28 11:16:11.802] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-28 11:17:09.356] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-28 11:17:09.385] [exthost] [info] Extension host with pid 4298 exiting with code 0

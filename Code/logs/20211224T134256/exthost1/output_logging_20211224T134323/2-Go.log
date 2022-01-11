@@ -1,0 +1,202 @@
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:8:2 no required module provides package github.com/charmbracelet/bubbles/textinput; to add it:
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:8:2 no required module provides package github.com/charmbracelet/bubbles/textinput; to add it:
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:8:2 no required module provides package github.com/charmbracelet/bubbles/textinput; to add it:
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:8:2 no required module provides package github.com/charmbracelet/bubbles/textinput; to add it:
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:141:1 expected operand, found 'case' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:142:2 expected '{', found 'return' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:143:1 expected '}', found 'case' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:144:2 expected declaration, found 'if' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:174:25 expected 'IDENT', found ')' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:175:17 expected ';', found ':' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:176:3 expected declaration, found 'switch' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:196:2 expected declaration, found 'switch' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:197:17 expected ';', found ':' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:198:3 expected declaration, found 'switch' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:141:1 expected '}', found 'case' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:142:2 expected declaration, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:174:25 expected 'IDENT', found ')' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:175:17 expected ';', found ':' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:176:3 expected declaration, found 'switch' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:196:2 expected declaration, found 'switch' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:197:17 expected ';', found ':' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:198:3 expected declaration, found 'switch' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:142:10 no result values expected (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:139:16 func model.navigation is unused (U1000)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:191:2 expected declaration, found 'return' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:197:2 expected declaration, found 'switch' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:198:17 expected ';', found ':' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:199:3 expected declaration, found 'switch' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:198:1 expected '}', found 'case' (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:202:2 expected declaration, found 'if' (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:129:5 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:206:64 not enough arguments in call to m.redmineClient.CreateTimeEntry (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:212:15 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:217:4 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:217:19 m.input undefined (type model has no field or method input) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:137:5 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:214:64 not enough arguments in call to m.redmineClient.CreateTimeEntry (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:220:15 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:225:4 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:225:19 m.input undefined (type model has no field or method input) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:221:64 not enough arguments in call to m.redmineClient.CreateTimeEntry (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:227:15 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:232:4 m.input undefined (type model has no field or method input) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:232:19 m.input undefined (type model has no field or method input) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:140:5 m.inputComment undefined (type model has no field or method inputComment) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:142:5 m.inputHours undefined (type model has no field or method inputHours) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:144:5 m.inputDate undefined (type model has no field or method inputDate) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:228:15 m.inputComment undefined (type model has no field or method inputComment) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:233:4 m.inputComment undefined (type model has no field or method inputComment) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:233:26 m.inputComment undefined (type model has no field or method inputComment) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:229:15 m.inputComment undefined (type model has no field or method inputComment) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:234:4 m.inputComment undefined (type model has no field or method inputComment) (compile)
+/home/aosderzhikov/go/src/regent/cli/cli.go:234:26 m.inputComment undefined (type model has no field or method inputComment) (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/restapi
+/home/aosderzhikov/go/src/regent/restapi>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:242:7 no new variables on left side of := (compile)
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+
+Starting linting the current package at /home/aosderzhikov/go/src/regent/cli
+/home/aosderzhikov/go/src/regent/cli>Finished running tool: /home/aosderzhikov/go/bin/staticcheck
+/home/aosderzhikov/go/src/regent/cli/cli.go:19:6 type errMsg is unused (U1000)
+
